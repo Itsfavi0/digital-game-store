@@ -14,8 +14,8 @@
       "has_microtransactions": false
     },
     "media": {
-      "cover_url": "./assets/gta6.png",
-      "trailer_url": "https://www.youtube.com/watch?v=VQRLujxTm3c"
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png",
+      "trailer_url": "https://www.youtube.com/watch?v=QdBZY2fkU-0"
     }
   },
   {
@@ -26,15 +26,15 @@
     "release_date": "2015-05-19",
     "platforms": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "Nintendo Switch"],
     "genres": ["RPG", "Open world"],
-    "summary": "Sigue los pasos del cazador de monstruos Geralt de Rivia en la búsqueda de su hija adoptiva.",
+    "summary": "Sigue los pasos del cazador de monstruos Geralt de Rivia en la busqueda de su hija adoptiva.",
     "gameplay_details": {
       "estimated_duration_hours": 50,
       "map_size_multiplier": 1.0,
       "has_microtransactions": false
     },
     "media": {
-      "cover_url": "./assets/witcher3.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=VQRLujxTm3c"
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=c0i88t0Kacs"
     }
   },
   {
@@ -45,15 +45,148 @@
     "release_date": "2022-02-25",
     "platforms": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
     "genres": ["RPG", "Action-adventure"],
-    "summary": "Levántate, Sinluz, y déjate guiar por la gracia para esgrimir el poder del Círculo de Elden en las Tierras Intermedias.",
+    "summary": "Levantate, Sinluz, y dejate guiar por la gracia para esgrimir el poder del Circulo de Elden en las Tierras Intermedias.",
     "gameplay_details": {
       "estimated_duration_hours": 60,
       "map_size_multiplier": 1.2,
       "has_microtransactions": false
     },
     "media": {
-      "cover_url": "https://tuweb.com",
-      "trailer_url": "https://youtube.com"
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=E3Huy2cdih0"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Cyberpunk 2077",
+    "developer": "CD Projekt RED",
+    "publisher": "CD Projekt",
+    "release_date": "2020-12-10",
+    "platforms": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
+    "genres": ["RPG", "Action"],
+    "summary": "Night City, una megalopolis obsesionada con el poder, el glamour y las modificaciones corporales.",
+    "gameplay_details": {
+      "estimated_duration_hours": 25,
+      "map_size_multiplier": 1.1,
+      "has_microtransactions": false
+    },
+    "media": {
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=8X2kIfS6fb8"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Red Dead Redemption 2",
+    "developer": "Rockstar Games",
+    "publisher": "Rockstar Games",
+    "release_date": "2018-10-26",
+    "platforms": ["PC", "PlayStation 4", "Xbox One"],
+    "genres": ["Action-adventure", "Open world"],
+    "summary": "Arthur Morgan y la banda de Van der Linde huyen mientras las fuerzas de la ley les pisan los talones.",
+    "gameplay_details": {
+      "estimated_duration_hours": 60,
+      "map_size_multiplier": 1.5,
+      "has_microtransactions": true
+    },
+    "media": {
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=eaW0tYpxyp0"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Baldur's Gate 3",
+    "developer": "Larian Studios",
+    "publisher": "Larian Studios",
+    "release_date": "2023-08-03",
+    "platforms": ["PC", "PlayStation 5", "Xbox Series X/S", "macOS"],
+    "genres": ["RPG", "Turn-based"],
+    "summary": "Reunete en compania o forja tu camino en solitario en una aventura de mundo abierto basada en Dungeons & Dragons.",
+    "gameplay_details": {
+      "estimated_duration_hours": 90,
+      "map_size_multiplier": 1.0,
+      "has_microtransactions": false
+    },
+    "media": {
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=1T22wNvoNiU"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Hades",
+    "developer": "Supergiant Games",
+    "publisher": "Supergiant Games",
+    "release_date": "2020-09-17",
+    "platforms": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "Nintendo Switch"],
+    "genres": ["Roguelike", "Action"],
+    "summary": "Desafia al dios de los muertos mientras escapas del Inframundo en este roguelike de accion.",
+    "gameplay_details": {
+      "estimated_duration_hours": 25,
+      "map_size_multiplier": 1.0,
+      "has_microtransactions": false
+    },
+    "media": {
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/header.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=91t0ha9x0AE"
+    }
+  },
+  {
+    "id": 8,
+    "title": "God of War",
+    "developer": "Santa Monica Studio",
+    "publisher": "Sony Interactive Entertainment",
+    "release_date": "2022-01-14",
+    "platforms": ["PC", "PlayStation 4", "PlayStation 5"],
+    "genres": ["Action-adventure", "RPG"],
+    "summary": "Kratos vive como un hombre fuera de la sombra de los dioses en las tierras de los mitos nordicos.",
+    "gameplay_details": {
+      "estimated_duration_hours": 30,
+      "map_size_multiplier": 1.0,
+      "has_microtransactions": false
+    },
+    "media": {
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=K0u_kAWLJOA"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Hollow Knight",
+    "developer": "Team Cherry",
+    "publisher": "Team Cherry",
+    "release_date": "2017-02-24",
+    "platforms": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+    "genres": ["Metroidvania", "Action"],
+    "summary": "Explora las cavernas retorcidas del reino en ruinas de Hallownest en esta aventura de accion 2D.",
+    "gameplay_details": {
+      "estimated_duration_hours": 30,
+      "map_size_multiplier": 1.0,
+      "has_microtransactions": false
+    },
+    "media": {
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=UAO2urG23S4"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Sekiro: Shadows Die Twice",
+    "developer": "FromSoftware",
+    "publisher": "Activision",
+    "release_date": "2019-03-22",
+    "platforms": ["PC", "PlayStation 4", "Xbox One"],
+    "genres": ["Action-adventure", "Souls-like"],
+    "summary": "Lleva a un shinobi de un solo brazo en su venganza contra el clan que lo derroto y secuestro a su senor.",
+    "gameplay_details": {
+      "estimated_duration_hours": 30,
+      "map_size_multiplier": 1.0,
+      "has_microtransactions": false
+    },
+    "media": {
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=rXMX4YJ7Lts"
     }
   }
 ]
