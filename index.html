@@ -31,7 +31,7 @@
 
         <form class="header-search">
           <img src="./assets/search.svg" alt="Icono de búsqueda" />
-          <input class="header-search-input" type="text" placeholder="Buscar tu juego..." />
+          <input class="header-search-input" type="text" placeholder="Buscar tu juego..." aria-label="Buscar tu juego"/>
           <button class="header-search-button" type="submit">Buscar</button>
         </form>
 
@@ -46,7 +46,7 @@
               </li>
               
               <li class="header-nav-item">
-                <a class="header-nav-link" href="#">Playstation</a>
+                <a class="header-nav-link" href="#">PlayStation</a>
               </li>
               
               <li class="header-nav-item">
@@ -65,7 +65,7 @@
               <li class="header-dropdown">
                 <a href="#" class="header-drop-button">USD $ ▼</a>
                 <ul class="header-dropdown-content">
-                  <li class="active"><a href="#" data-currency="dolar">USD $</a></li>
+                  <li class="active"><a href="#" data-currency="dollar">USD $</a></li>
                   <li><a href="#" data-currency="pen">PEN S/</a></li>
                 </ul>
               </li>
@@ -306,7 +306,7 @@
 
       <article class="flash-card">
         <div class="flash-poster">
-          <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/library_600x900_2x.jpg"alt="God of War" />
+          <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/library_600x900_2x.jpg" alt="God of War" />
           <div class="flash-badge-platform">PLAYSTATION PC</div>
           <div class="flash-badge-discount">-40%</div>
         </div>
@@ -331,7 +331,7 @@
 
       <article class="flash-card">
         <div class="flash-poster">
-          <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/library_600x900_2x.jpg"alt="God of War" />
+          <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/library_600x900_2x.jpg" alt="God of War" />
           <div class="flash-badge-platform">PLAYSTATION PC</div>
           <div class="flash-badge-discount">-40%</div>
         </div>
@@ -356,7 +356,7 @@
       
       <article class="flash-card">
         <div class="flash-poster">
-          <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/library_600x900_2x.jpg"alt="God of War" />
+          <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/library_600x900_2x.jpg" alt="God of War" />
           <div class="flash-badge-platform">PLAYSTATION PC</div>
           <div class="flash-badge-discount">-40%</div>
         </div>
@@ -385,7 +385,7 @@
 <!-- Games Section -->
   <section class="games-section">
     <div class="container">
-      <h2>Juegos mas Populares</h2>
+      <h2>Juegos más Populares</h2>
       <div class="games-listings">
         <div class="games-grid" id="games-grid">
 
@@ -402,7 +402,7 @@
         <h2 class="rewards-title">Únete a FavGames Club y gana 5% de Cashback en todas tus compras</h2>
         <p class="rewards-desc">
           Acumula FavGames Coins en cada compra de claves y canjéalas por expansiones, 
-          DLCs exclusivos y juegos completos sin costo adicional.
+          DLC exclusivos y juegos completos sin costo adicional.
         </p>
       </div>
 
@@ -424,7 +424,7 @@
             <h3 class="footer-logo">FavGames</h3>
           </div>
 
-          <p class="footer-desc">Authorized global merchant delivering authentic CD-keys, digital game codes, and platform suscription with instantaneous encrypted dispatch.</p>
+          <p class="footer-desc">Authorized global merchant delivering authentic CD-keys, digital game codes, and platform subscription with instantaneous encrypted dispatch.</p>
 
           <div class="footer-badges">
             <div class="footer-badge-card">
@@ -453,7 +453,7 @@
           <h3 class="footer-title">Tienda</h3>
             <ul class="footer-links">
               <li><a class="footer-link" href="#">PC & Steam</a></li>
-              <li><a class="footer-link" href="#">Playstation Network</a></li>
+              <li><a class="footer-link" href="#">PlayStation Network</a></li>
               <li><a class="footer-link" href="#">Xbox Game Pass & Keys</a></li>
               <li><a class="footer-link" href="#">Nintendo Switch eShop</a></li>
               <li><a class="footer-link" href="#">Digital Gift Cards</a></li>
@@ -473,9 +473,9 @@
 
         <section class="footer-col-newsletter">
           <h3 class="footer-title">Nexus Flash Drops</h3>
-          <p class="footer-description">Instant alerts for midnight releases and 80%+ publisher publisher cuts.</p>
+          <p class="footer-description">Instant alerts for midnight releases and 80%+ publisher cuts.</p>
             <form class="newsletter-form">
-              <input class="newletter-form-input" type="email" placeholder="Ingresa tu email" required />
+              <input class="newletter-form-input" type="email" placeholder="Ingresa tu email" required aria-label="Ingresa tu email"/>
               <button class="newletter-form-button" type="submit">Unirse</button>
             </form>
             <small class="footer-disclaimer">Cero spam. Puedes cancelar en cualquier momento.</small>
@@ -484,17 +484,18 @@
 
       <div class="footer-bottom">
         <div class="footer-legal">
-          <span class="legal-item"><img class="footer-icon" src="./assets/footer-icons/lock.svg"></img> SSL 256-Bit Encrypted</span>
-          <span class="legal-item"><img class="footer-icon" src="./assets/footer-icons/thunder.svg"></img> Delay Automated Dispatch</span>
+          <span class="legal-item"><img class="footer-icon" src="./assets/footer-icons/lock.svg" alt=""> SSL 256-Bit Encrypted</span>
+          <span class="legal-item"><img class="footer-icon" src="./assets/footer-icons/thunder.svg" alt=""> Delay Automated Dispatch</span>
           <span class="legal-item">&copy; 2026 FavGames Inc. Todos los derechos reservados.</span>
         </div>
 
         <div class="">
           <div class="footer-social">
-          <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/"><img class="footer-icon" src="./assets/footer-icons/facebook.svg"></img>Facebook</a>
-          <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/favi0_b/"><img class="footer-icon" src="./assets/footer-icons/instagram.svg"></img>Instagram</a>
-          <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/"><img class="footer-icon" src="./assets/footer-icons/youtube.svg"></img>YouTube</a>
-          <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://github.com/Itsfavi0"><img class="footer-icon" src="./assets/footer-icons/github.svg"></img>GitHub</a>
+          <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/"><img alt="facebook-page" class="footer-icon" src="./assets/footer-icons/facebook.svg">Facebook</a>
+          <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/favi0_b/"><img alt="instagram-profile" class="footer-icon" src="./assets/footer-icons/instagram.svg">Instagram</a>
+          <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/"><img alt="youtube-profile" class="footer-icon" src="./assets/footer-icons/youtube.svg">YouTube</a>
+          <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://github.com/Itsfavi0"><img alt="github-profile" class="footer-icon" src="./assets/footer-icons/github.svg">GitHub</a>
+          </div>
         </div>
       </div>
     </div>
