@@ -1,0 +1,233 @@
+.flash-sales-section {
+  margin: 3rem auto;
+}
+
+.sale-games-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.sale-text {
+    font-family: 'Etiquetas', sans-serif;
+    text-transform: uppercase;
+    
+    .sale-games-subtitle {
+        
+        color: var(--secondary);
+        font-size: 0.75rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+        display: block;
+        margin-bottom: 0.2rem;
+    }
+
+    .sale-games-title {
+        font-size: 2.2rem;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+    }
+}
+
+.countdown {
+    display: flex;
+    align-items: center;
+
+    font-family: 'Etiquetas', sans-serif;
+    text-transform: uppercase;
+
+    background-color: var(--card-bg);
+    border: 1px solid var(--border);
+    padding: 1.2rem 1.5rem;
+    border-radius: 0.5rem;
+
+    gap: 1rem;
+}
+
+.countdown-icon {
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.countdown-label {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--text-secondary);
+}
+
+.countdown-timer {
+    font-family: 'Etiquetas', monospace;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-left: 10px;
+
+    span {
+        padding: 0.5rem;
+        background-color: var(--background); 
+        color: var(--primary);
+        border-radius: 0.3rem;
+    }
+}
+
+.sale-games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.flash-card {
+    background-color: var(--card-bg);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.flash-poster {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    font-family: 'Etiquetas', sans-serif;
+}
+
+.flash-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.flash-badge-platform {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    background-color: rgba(10, 13, 20, 0.85);
+    color: var(--text-secondary-2);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.flash-badge-discount {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: var(--primary);
+    color: var(--background);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.flash-stock-bar {
+    width: 100%;
+    height: 4px;
+    background-color: #1a202c;
+}
+
+.stock-progress {
+    height: 100%;
+    background-color: var(--primary);
+    transition: width 0.3s ease;
+}
+
+.flash-info {
+    padding: 1rem;
+    flex: 1;
+}
+
+.flash-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-bottom: 0.5rem;
+    font-family: 'Etiquetas', sans-serif;
+    font-size: 0.75rem;
+
+    .edition {
+        color: var(--text-secondary);
+    }
+
+    .keys-left {
+        color: var(--secondary);
+    }
+}
+
+.flash-game-tittle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'TextoPrincipal', sans-serif;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.flash-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem 1rem 1rem;
+    margin-top: auto;
+}
+
+.flash-prices {
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Etiquetas', sans-serif;
+
+    .old-price {
+        color: var(--text-muted);
+        text-decoration: line-through;
+        font-size: 0.75rem;
+    }
+
+    .new-price {
+        font-size: 1.4rem;
+        font-weight: bold;
+        line-height: 1;
+    }
+}
+
+.flash-prices .new-price .text-green {
+  color: var(--primary);
+}
+
+.flash-prices .new-price small {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+}
+
+
+.btn-buy {
+    background-color: #2D3748;
+    color: var(--text-primary);
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 0.3rem;
+
+    font-family: 'TitulosTienda', sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: var(--primary);
+        color: var(--background);
+    }
+}

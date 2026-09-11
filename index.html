@@ -6,12 +6,15 @@
   <meta charset="UTF-8" />
   <meta name="description" content="Bienvenido a FavGames, tu sitio web favorito para información sobre videojuegos.">
 
+  <link rel="icon" type="image/x-icon" href="./assets/games.svg" />
+
   <link rel="stylesheet" href="./css/home/base.css" />
   <link rel="stylesheet" href="./css/home/header.css" />
   <link rel="stylesheet" href="./css/home/hero.css" />
   <link rel="stylesheet" href="./css/home/cards.css" />
   <link rel="stylesheet" href="./css/home/footer.css" />
   <link rel="stylesheet" href="./css/home/responsive.css" />
+  <link rel="stylesheet" href="./css/home/saleGame.css" />
 
   <script type="module" src="./main.js"></script>
 </head>
@@ -250,6 +253,135 @@
     </section>
   </section>
 
+<!-- Sale Games -->
+  <section class="sale-games-section">
+    <div class="container">
+      <div class="sale-games-header">
+        <div class="sale-text">
+          <span class="sale-games-subtitle">Stock Limitado por Editor</span>
+          <h2 class="sale-games-title">Ofertas Relámpago ⚡</h2>
+        </div>
+
+        <div class="countdown">
+          <img class="countdown-icon" src="./assets/clock.svg" alt="Icono de reloj" />
+          <span class="countdown-label">Termina en:</span>
+          <div class="countdown-timer" id="countdown-timer">
+            <span id="days">00</span>:
+            <span id="hours">00</span>:
+            <span id="minutes">00</span>:
+            <span id="seconds">00</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sale-games-grid" id="sale-games-grid">
+        <article class="flash-card">
+        <div class="flash-poster">
+          <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/library_600x900_2x.jpg" alt="Red Dead Redemption 2" />
+          <div class="flash-badge-platform">ROCKSTAR / STEAM</div>
+          <div class="flash-badge-discount">-70%</div>
+        </div>
+        
+        <!-- Barra de Stock -->
+        <div class="flash-stock-bar">
+          <div class="stock-progress" style="width: 20%;"></div> 
+        </div>
+        
+        <div class="flash-info">
+          <div class="flash-meta">
+            <span class="edition">Edición Definitiva</span>
+            <span class="keys-left">Quedan 18 claves</span>
+          </div>
+          <h3 class="flash-game-title">Red Dead Redemption 2</h3>
+        </div>
+        
+        <div class="flash-footer">
+          <div class="flash-prices">
+            <span class="old-price">$59.99</span>
+            <span class="new-price"><span class="text-green">$17.99</span> <small>USD</small></span>
+          </div>
+          <button class="btn-buy">🛒 COMPRAR</button>
+        </div>
+      </article>
+
+      <article class="flash-card">
+        <div class="flash-poster">
+          <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/library_600x900_2x.jpg"alt="God of War" />
+          <div class="flash-badge-platform">PLAYSTATION PC</div>
+          <div class="flash-badge-discount">-40%</div>
+        </div>
+        <div class="flash-stock-bar">
+          <div class="stock-progress" style="width: 10%;"></div>
+        </div>
+        <div class="flash-info">
+          <div class="flash-meta">
+            <span class="edition">Estándar Global</span>
+            <span class="keys-left">Quedan 6 claves</span>
+          </div>
+          <h3 class="flash-game-title">God of War Ragnarök</h3>
+        </div>
+        <div class="flash-footer">
+          <div class="flash-prices">
+            <span class="old-price">$59.99</span>
+            <span class="new-price"><span class="text-green">$35.99</span> <small>USD</small></span>
+          </div>
+          <button class="btn-buy">🛒 COMPRAR</button>
+        </div>
+      </article>
+
+      <article class="flash-card">
+        <div class="flash-poster">
+          <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/library_600x900_2x.jpg"alt="God of War" />
+          <div class="flash-badge-platform">PLAYSTATION PC</div>
+          <div class="flash-badge-discount">-40%</div>
+        </div>
+        <div class="flash-stock-bar">
+          <div class="stock-progress" style="width: 10%;"></div>
+        </div>
+        <div class="flash-info">
+          <div class="flash-meta">
+            <span class="edition">Estándar Global</span>
+            <span class="keys-left">Quedan 6 claves</span>
+          </div>
+          <h3 class="flash-game-title">God of War Ragnarök</h3>
+        </div>
+        <div class="flash-footer">
+          <div class="flash-prices">
+            <span class="old-price">$59.99</span>
+            <span class="new-price"><span class="text-green">$35.99</span> <small>USD</small></span>
+          </div>
+          <button class="btn-buy">🛒 COMPRAR</button>
+        </div>
+      </article>
+      
+      <article class="flash-card">
+        <div class="flash-poster">
+          <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/library_600x900_2x.jpg"alt="God of War" />
+          <div class="flash-badge-platform">PLAYSTATION PC</div>
+          <div class="flash-badge-discount">-40%</div>
+        </div>
+        <div class="flash-stock-bar">
+          <div class="stock-progress" style="width: 10%;"></div>
+        </div>
+        <div class="flash-info">
+          <div class="flash-meta">
+            <span class="edition">Estándar Global</span>
+            <span class="keys-left">Quedan 6 claves</span>
+          </div>
+          <h3 class="flash-game-title">God of War Ragnarök</h3>
+        </div>
+        <div class="flash-footer">
+          <div class="flash-prices">
+            <span class="old-price">$59.99</span>
+            <span class="new-price"><span class="text-green">$35.99</span> <small>USD</small></span>
+          </div>
+          <button class="btn-buy">🛒 COMPRAR</button>
+        </div>
+      </article>
+      </div>
+    </div>
+  </section>
+
 <!-- Games Section -->
   <section class="games-section">
     <div class="container">
@@ -263,7 +395,6 @@
   </section>
 
 <!-- Rewards Section -->
-
   <section class="rewards-section container">
     <div class="rewards-banner">
       <div class="rewards-content">
