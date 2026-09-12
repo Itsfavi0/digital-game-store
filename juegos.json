@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "Grand Theft Auto V: Premium Edition",
+    "edition": "Premium Edition",
     "developer": "Rockstar North",
     "publisher": "Rockstar Games",
     "release_date": "2013-09-17",
@@ -14,17 +15,53 @@
       "Action-adventure",
       "Open world"
     ],
+    "tags": [
+      "Mundo abierto",
+      "Acción",
+      "Crimen",
+      "Multijugador",
+      "Tercera persona",
+      "Disparos"
+    ],
     "region": "Global",
+    "drm": "Rockstar / Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": true,
+    "is_on_sale": true,
     "summary": "Cuando un joven estafador callejero, un ladrón de bancos retirado y un psicópata aterrador se ven involucrados con lo peor del mundo criminal, deben llevar a cabo peligrosos golpes para sobrevivir.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Francés",
+      "Alemán",
+      "Italiano",
+      "Portugués",
+      "Ruso"
+    ],
+    "features": [
+      "Un jugador",
+      "Multijugador online",
+      "PvP",
+      "Logros de Steam",
+      "Guardado en la nube",
+      "Compatible con mando"
+    ],
     "gameplay_details": {
       "estimated_duration_hours": 50,
       "map_size_multiplier": 1.5,
       "has_microtransactions": true
     },
     "prices": {
+      "original_price": 59.99,
       "current_price": 29.99,
       "discount_percentage": 50,
       "currency": "USD"
+    },
+    "stock": {
+      "available": 45,
+      "total": 100,
+      "percentage": 45,
+      "status": "En stock"
     },
     "ratings": {
       "critic_score": 97,
@@ -41,6 +78,7 @@
   {
     "id": 2,
     "title": "The Witcher 3: Wild Hunt",
+    "edition": "Complete Edition (GOTY)",
     "developer": "CD Projekt RED",
     "publisher": "CD Projekt",
     "release_date": "2015-05-19",
@@ -54,17 +92,52 @@
       "RPG",
       "Open world"
     ],
+    "tags": [
+      "Rol",
+      "Mundo abierto",
+      "Fantasía",
+      "Historia rica",
+      "Magia",
+      "Aventura"
+    ],
     "region": "LATAM",
+    "drm": "Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": true,
+    "is_on_sale": true,
     "summary": "Sigue los pasos del cazador de monstruos Geralt de Rivia en la búsqueda de su hija adoptiva.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Polaco",
+      "Francés",
+      "Alemán",
+      "Portugués",
+      "Japonés"
+    ],
+    "features": [
+      "Un jugador",
+      "Logros de Steam",
+      "Guardado en la nube",
+      "Cromos de Steam",
+      "Compatible con mando"
+    ],
     "gameplay_details": {
       "estimated_duration_hours": 50,
       "map_size_multiplier": 1.0,
       "has_microtransactions": false
     },
     "prices": {
-      "current_price": 39.99,
+      "original_price": 39.99,
+      "current_price": 9.99,
       "discount_percentage": 75,
       "currency": "USD"
+    },
+    "stock": {
+      "available": 15,
+      "total": 100,
+      "percentage": 15,
+      "status": "Pocas unidades"
     },
     "ratings": {
       "critic_score": 93,
@@ -81,6 +154,7 @@
   {
     "id": 3,
     "title": "Elden Ring",
+    "edition": "Deluxe Edition",
     "developer": "FromSoftware",
     "publisher": "Bandai Namco Entertainment",
     "release_date": "2022-02-25",
@@ -93,17 +167,53 @@
       "RPG",
       "Action-adventure"
     ],
+    "tags": [
+      "Souls-like",
+      "Fantasía oscura",
+      "Mundo abierto",
+      "Difícil",
+      "Rol de acción",
+      "Tercera persona"
+    ],
     "region": "Global",
+    "drm": "Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": true,
+    "is_on_sale": true,
     "summary": "Levantate, Sinluz, y dejate guiar por la gracia para esgrimir el poder del Circulo de Elden en las Tierras Intermedias.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Japonés",
+      "Francés",
+      "Italiano",
+      "Alemán",
+      "Portugués"
+    ],
+    "features": [
+      "Un jugador",
+      "Cooperativo online",
+      "PvP online",
+      "Logros de Steam",
+      "Guardado en la nube",
+      "Compatible con mando"
+    ],
     "gameplay_details": {
       "estimated_duration_hours": 60,
       "map_size_multiplier": 1.2,
       "has_microtransactions": false
     },
     "prices": {
-      "current_price": 59.99,
+      "original_price": 59.99,
+      "current_price": 41.99,
       "discount_percentage": 30,
       "currency": "USD"
+    },
+    "stock": {
+      "available": 28,
+      "total": 100,
+      "percentage": 28,
+      "status": "En stock"
     },
     "ratings": {
       "critic_score": 96,
@@ -120,6 +230,7 @@
   {
     "id": 4,
     "title": "Cyberpunk 2077",
+    "edition": "Ultimate Edition",
     "developer": "CD Projekt RED",
     "publisher": "CD Projekt",
     "release_date": "2020-12-10",
@@ -132,17 +243,52 @@
       "RPG",
       "Action"
     ],
+    "tags": [
+      "Cyberpunk",
+      "Mundo abierto",
+      "Rol",
+      "Primera persona",
+      "Ciencia ficción",
+      "Disparos"
+    ],
     "region": "Global",
+    "drm": "Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": true,
+    "is_on_sale": true,
     "summary": "Night City, una megalopolis obsesionada con el poder, el glamour y las modificaciones corporales.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Polaco",
+      "Francés",
+      "Alemán",
+      "Portugués",
+      "Japonés"
+    ],
+    "features": [
+      "Un jugador",
+      "Trazado de rayos",
+      "Logros de Steam",
+      "Guardado en la nube",
+      "Compatible con mando"
+    ],
     "gameplay_details": {
       "estimated_duration_hours": 25,
       "map_size_multiplier": 1.1,
       "has_microtransactions": false
     },
     "prices": {
-      "current_price": 59.99,
+      "original_price": 59.99,
+      "current_price": 29.99,
       "discount_percentage": 50,
       "currency": "USD"
+    },
+    "stock": {
+      "available": 30,
+      "total": 100,
+      "percentage": 30,
+      "status": "En stock"
     },
     "ratings": {
       "critic_score": 86,
@@ -159,6 +305,7 @@
   {
     "id": 5,
     "title": "Red Dead Redemption 2",
+    "edition": "Ultimate Edition",
     "developer": "Rockstar Games",
     "publisher": "Rockstar Games",
     "release_date": "2018-10-26",
@@ -171,17 +318,52 @@
       "Action-adventure",
       "Open world"
     ],
+    "tags": [
+      "Western",
+      "Mundo abierto",
+      "Historia rica",
+      "Aventura",
+      "Disparos",
+      "Realista"
+    ],
     "region": "LATAM",
+    "drm": "Rockstar / Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": true,
+    "is_on_sale": true,
     "summary": "Arthur Morgan y la banda de Van der Linde huyen mientras las fuerzas de la ley les pisan los talones.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Francés",
+      "Italiano",
+      "Alemán",
+      "Portugués",
+      "Ruso"
+    ],
+    "features": [
+      "Un jugador",
+      "Multijugador online",
+      "Logros de Steam",
+      "Guardado en la nube",
+      "Compatible con mando"
+    ],
     "gameplay_details": {
       "estimated_duration_hours": 60,
       "map_size_multiplier": 1.5,
       "has_microtransactions": true
     },
     "prices": {
-      "current_price": 59.99,
+      "original_price": 59.99,
+      "current_price": 19.79,
       "discount_percentage": 67,
       "currency": "USD"
+    },
+    "stock": {
+      "available": 18,
+      "total": 90,
+      "percentage": 20,
+      "status": "Pocas unidades"
     },
     "ratings": {
       "critic_score": 97,
@@ -198,6 +380,7 @@
   {
     "id": 6,
     "title": "Baldur's Gate 3",
+    "edition": "Digital Deluxe Edition",
     "developer": "Larian Studios",
     "publisher": "Larian Studios",
     "release_date": "2023-08-03",
@@ -211,17 +394,51 @@
       "RPG",
       "Turn-based"
     ],
+    "tags": [
+      "Rol táctico",
+      "D&D",
+      "Por turnos",
+      "Decisiones importantes",
+      "Fantasía",
+      "Multijugador"
+    ],
     "region": "Global",
+    "drm": "Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": true,
+    "is_on_sale": true,
     "summary": "Reúnete en compañía o forja tu camino en solitario en una aventura de mundo abierto basada en Dungeons & Dragons.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Francés",
+      "Alemán",
+      "Ruso",
+      "Chino"
+    ],
+    "features": [
+      "Un jugador",
+      "Cooperativo online",
+      "Cooperativo en pantalla dividida",
+      "Logros de Steam",
+      "Guardado en la nube"
+    ],
     "gameplay_details": {
       "estimated_duration_hours": 90,
       "map_size_multiplier": 1.0,
       "has_microtransactions": false
     },
     "prices": {
-      "current_price": 59.99,
+      "original_price": 59.99,
+      "current_price": 53.99,
       "discount_percentage": 10,
       "currency": "USD"
+    },
+    "stock": {
+      "available": 12,
+      "total": 100,
+      "percentage": 12,
+      "status": "Pocas unidades"
     },
     "ratings": {
       "critic_score": 96,
@@ -238,6 +455,7 @@
   {
     "id": 7,
     "title": "Hades",
+    "edition": "Standard Edition",
     "developer": "Supergiant Games",
     "publisher": "Supergiant Games",
     "release_date": "2020-09-17",
@@ -251,17 +469,52 @@
       "Roguelike",
       "Action"
     ],
+    "tags": [
+      "Roguelike",
+      "Acción",
+      "Mitología",
+      "Hack and slash",
+      "Indie",
+      "Gran banda sonora"
+    ],
     "region": "LATAM",
+    "drm": "Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": false,
+    "is_on_sale": true,
     "summary": "Desafía al dios de los muertos mientras escapas del Inframundo en este roguelike de acción.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Francés",
+      "Italiano",
+      "Alemán",
+      "Portugués",
+      "Ruso"
+    ],
+    "features": [
+      "Un jugador",
+      "Logros de Steam",
+      "Guardado en la nube",
+      "Cromos de Steam",
+      "Compatible con mando"
+    ],
     "gameplay_details": {
       "estimated_duration_hours": 25,
       "map_size_multiplier": 1.0,
       "has_microtransactions": false
     },
     "prices": {
-      "current_price": 24.99,
+      "original_price": 24.99,
+      "current_price": 12.49,
       "discount_percentage": 50,
       "currency": "USD"
+    },
+    "stock": {
+      "available": 40,
+      "total": 100,
+      "percentage": 40,
+      "status": "En stock"
     },
     "ratings": {
       "critic_score": 93,
@@ -278,6 +531,7 @@
   {
     "id": 8,
     "title": "God of War",
+    "edition": "Digital Deluxe Edition",
     "developer": "Santa Monica Studio",
     "publisher": "Sony Interactive Entertainment",
     "release_date": "2022-01-14",
@@ -289,17 +543,51 @@
       "Action-adventure",
       "RPG"
     ],
+    "tags": [
+      "Acción",
+      "Mitología nórdica",
+      "Aventura",
+      "Historia profunda",
+      "Combate"
+    ],
     "region": "Global",
+    "drm": "Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": true,
+    "is_on_sale": true,
     "summary": "Kratos vive como un hombre fuera de la sombra de los dioses en las tierras de los mitos nórdicos.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Francés",
+      "Italiano",
+      "Alemán",
+      "Portugués",
+      "Ruso"
+    ],
+    "features": [
+      "Un jugador",
+      "Logros de Steam",
+      "Guardado en la nube",
+      "UltraWide 21:9",
+      "Compatible con mando"
+    ],
     "gameplay_details": {
       "estimated_duration_hours": 30,
       "map_size_multiplier": 1.0,
       "has_microtransactions": false
     },
     "prices": {
-      "current_price": 49.99,
+      "original_price": 49.99,
+      "current_price": 29.99,
       "discount_percentage": 40,
       "currency": "USD"
+    },
+    "stock": {
+      "available": 6,
+      "total": 60,
+      "percentage": 10,
+      "status": "Últimas unidades"
     },
     "ratings": {
       "critic_score": 93,
@@ -316,6 +604,7 @@
   {
     "id": 9,
     "title": "Hollow Knight",
+    "edition": "Voidheart Edition",
     "developer": "Team Cherry",
     "publisher": "Team Cherry",
     "release_date": "2017-02-24",
@@ -329,17 +618,52 @@
       "Metroidvania",
       "Action"
     ],
+    "tags": [
+      "Metroidvania",
+      "Souls-like",
+      "2D",
+      "Difícil",
+      "Exploración",
+      "Indie"
+    ],
     "region": "LATAM",
+    "drm": "Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": false,
+    "is_on_sale": true,
     "summary": "Explora las cavernas retorcidas del reino en ruinas de Hallownest en esta aventura de acción 2D.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Francés",
+      "Alemán",
+      "Italiano",
+      "Portugués",
+      "Ruso"
+    ],
+    "features": [
+      "Un jugador",
+      "Logros de Steam",
+      "Guardado en la nube",
+      "Cromos de Steam",
+      "Compatible con mando"
+    ],
     "gameplay_details": {
       "estimated_duration_hours": 30,
       "map_size_multiplier": 1.0,
       "has_microtransactions": false
     },
     "prices": {
-      "current_price": 14.99,
+      "original_price": 14.99,
+      "current_price": 7.49,
       "discount_percentage": 50,
       "currency": "USD"
+    },
+    "stock": {
+      "available": 22,
+      "total": 50,
+      "percentage": 44,
+      "status": "En stock"
     },
     "ratings": {
       "critic_score": 90,
@@ -356,6 +680,7 @@
   {
     "id": 10,
     "title": "Sekiro: Shadows Die Twice",
+    "edition": "GOTY Edition",
     "developer": "FromSoftware",
     "publisher": "Activision",
     "release_date": "2019-03-22",
@@ -368,17 +693,52 @@
       "Action-adventure",
       "Souls-like"
     ],
+    "tags": [
+      "Souls-like",
+      "Ninja",
+      "Difícil",
+      "Sigilo",
+      "Acción",
+      "Japón feudal"
+    ],
     "region": "Global",
+    "drm": "Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": true,
+    "is_on_sale": true,
     "summary": "Lleva a un shinobi de un solo brazo en su venganza contra el clan que lo derroto y secuestro a su senor.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Japonés",
+      "Francés",
+      "Italiano",
+      "Alemán",
+      "Portugués"
+    ],
+    "features": [
+      "Un jugador",
+      "Logros de Steam",
+      "Guardado en la nube",
+      "Cromos de Steam",
+      "Compatible con mando"
+    ],
     "gameplay_details": {
       "estimated_duration_hours": 30,
       "map_size_multiplier": 1.0,
       "has_microtransactions": false
     },
     "prices": {
-      "current_price": 59.99,
+      "original_price": 59.99,
+      "current_price": 29.99,
       "discount_percentage": 50,
       "currency": "USD"
+    },
+    "stock": {
+      "available": 16,
+      "total": 80,
+      "percentage": 20,
+      "status": "Pocas unidades"
     },
     "ratings": {
       "critic_score": 90,
