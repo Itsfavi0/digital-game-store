@@ -8,7 +8,7 @@ async function loadSaleGames() {
         const flashCard = document.createElement('article');
         flashCard.classList.add('flash-card');
         flashCard.innerHTML = `
-            <div class="flash-card">
+            <div class="flash-poster">
                 <img src=${game.media?.wide_cover_url} alt=${game.title}/>
                 <div class="flash-badge-platform">${game.publisher}/ ${game.platforms?.[0]}</div>
                 <div class="flash-badge-discount">-${game.prices?.discount_percentage}%</div>
