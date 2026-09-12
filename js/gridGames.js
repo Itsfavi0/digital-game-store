@@ -6,7 +6,6 @@ async function loadGames() {
     const response = await fetch("juegos.json");
     const data = await response.json();
 
-
     data.forEach(game => {
         const gameCard = document.createElement("article");
         gameCard.classList.add("game-card");
