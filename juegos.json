@@ -32,6 +32,9 @@
     },
     "media": {
       "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=QkkoHAzjnUs"
     }
   },
@@ -52,7 +55,7 @@
       "Open world"
     ],
     "region": "LATAM",
-    "summary": "Sigue los pasos del cazador de monstruos Geralt de Rivia en la busqueda de su hija adoptiva.",
+    "summary": "Sigue los pasos del cazador de monstruos Geralt de Rivia en la búsqueda de su hija adoptiva.",
     "gameplay_details": {
       "estimated_duration_hours": 50,
       "map_size_multiplier": 1.0,
@@ -69,6 +72,9 @@
     },
     "media": {
       "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=c0i88t0Kacs"
     }
   },
@@ -105,6 +111,9 @@
     },
     "media": {
       "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=E3Huy2cdih0"
     }
   },
@@ -141,6 +150,9 @@
     },
     "media": {
       "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=8X2kIfS6fb8"
     }
   },
@@ -177,6 +189,9 @@
     },
     "media": {
       "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=eaW0tYpxyp0"
     }
   },
@@ -197,7 +212,7 @@
       "Turn-based"
     ],
     "region": "Global",
-    "summary": "Reunete en compania o forja tu camino en solitario en una aventura de mundo abierto basada en Dungeons & Dragons.",
+    "summary": "Reúnete en compañía o forja tu camino en solitario en una aventura de mundo abierto basada en Dungeons & Dragons.",
     "gameplay_details": {
       "estimated_duration_hours": 90,
       "map_size_multiplier": 1.0,
@@ -214,6 +229,9 @@
     },
     "media": {
       "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=1T22wNvoNiU"
     }
   },
@@ -234,7 +252,7 @@
       "Action"
     ],
     "region": "LATAM",
-    "summary": "Desafia al dios de los muertos mientras escapas del Inframundo en este roguelike de accion.",
+    "summary": "Desafía al dios de los muertos mientras escapas del Inframundo en este roguelike de acción.",
     "gameplay_details": {
       "estimated_duration_hours": 25,
       "map_size_multiplier": 1.0,
@@ -251,6 +269,9 @@
     },
     "media": {
       "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=91t0ha9x0AE"
     }
   },
@@ -269,7 +290,7 @@
       "RPG"
     ],
     "region": "Global",
-    "summary": "Kratos vive como un hombre fuera de la sombra de los dioses en las tierras de los mitos nordicos.",
+    "summary": "Kratos vive como un hombre fuera de la sombra de los dioses en las tierras de los mitos nórdicos.",
     "gameplay_details": {
       "estimated_duration_hours": 30,
       "map_size_multiplier": 1.0,
@@ -286,6 +307,9 @@
     },
     "media": {
       "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=K0u_kAWLJOA"
     }
   },
@@ -306,7 +330,7 @@
       "Action"
     ],
     "region": "LATAM",
-    "summary": "Explora las cavernas retorcidas del reino en ruinas de Hallownest en esta aventura de accion 2D.",
+    "summary": "Explora las cavernas retorcidas del reino en ruinas de Hallownest en esta aventura de acción 2D.",
     "gameplay_details": {
       "estimated_duration_hours": 30,
       "map_size_multiplier": 1.0,
@@ -323,6 +347,9 @@
     },
     "media": {
       "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=UAO2urG23S4"
     }
   },
@@ -359,6 +386,9 @@
     },
     "media": {
       "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=rXMX4YJ7Lts"
     }
   }
