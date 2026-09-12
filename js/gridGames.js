@@ -6,16 +6,6 @@ async function loadGames() {
     const response = await fetch("juegos.json");
     const data = await response.json();
 
-    /**
-     * @typedef {Object} Game
-     * @property {string} title
-     * @property {string} summary
-     * @property {string} platforms
-     * @property {string} region
-     * @property {{ cover_url: string, trailer_url: string }} media
-     * @property {{ user_score: number }} ratings
-     * @property {{ current_price: number, currency: string }} prices
-     */
 
     data.forEach(game => {
         const gameCard = document.createElement("article");
