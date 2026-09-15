@@ -2,13 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .logo {
   display: flex;
   align-items: center;
   gap: 10px;
+  flex-shrink: 0;
   
   .logo-text {
     letter-spacing: 2px;
@@ -23,19 +24,20 @@
 
 .header-search {
   display: flex;
-  justify-content: center;
   align-items: center;
-  
   background-color: var(--input-bg);
   border-radius: 0.5rem;
   padding: 0.25rem 0.5rem;
-
   font-family: 'TextoPrincipal', sans-serif;
+  max-width: 320px;
+  flex: 1;
+  min-width: 160px;
 
   img {
     width: 20px;
     height: 20px;
     margin-right: 10px;
+    flex-shrink: 0;
   }
 }
 
@@ -43,8 +45,11 @@
   background: transparent;
   border: none;
   color: var(--text-primary);
-  font-size: 1rem;
+  font-size: 0.95rem;
   outline: none;
+  flex: 1;
+  min-width: 0;
+  width: 100%;
 }
 
 .header-search-button {
@@ -54,6 +59,8 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
   transition: background-color 0.3s ease;
 
   &:hover, &:focus {
@@ -61,17 +68,22 @@
   }
 }
 
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
 
 .header-nav-list {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.15rem;
 }
 
 .header-nav-item {
   color: var(--text-primary);
   font-family: 'TitulosTienda', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   font-weight: 500;
   transition: color 0.3s ease;
 
@@ -80,17 +92,16 @@
   }     
 }
 
-
 .header-dropdown {
   position: relative;
-  display: block
+  display: block;
 }
 
 .header-drop-button {
   color: var(--text-primary);
   font-family: 'TitulosTienda', sans-serif;
   text-transform: uppercase;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   font-weight: 500;
   transition: color 0.3s ease;
 
@@ -102,10 +113,14 @@
 .header-dropdown-content {
     display: none;
     position: absolute;
+    right: 0;
+    top: 100%;
     background-color: var(--card-bg);
-    min-width: 160px;
+    min-width: 140px;
     box-shadow: 0px 8px 16px 0px var(--shadow);
-    z-index: 1;
+    z-index: 10;
+    border-radius: 0.5rem;
+    overflow: hidden;
 
     a {
       color: var(--text-primary);
@@ -125,7 +140,7 @@
 }
 
 @media (max-width: 1440px) {
-  .header{
+  .header {
     padding-right: 30px;
     padding-left: 30px;
   }
