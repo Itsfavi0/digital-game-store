@@ -36,7 +36,7 @@
 
 @font-face {
   font-family: 'TextoPrincipal';
-  src: url('../../fonts/Geist-VariableFont_wght.ttf') format('truetype');
+  src: url('../../assets/fonts/Geist-VariableFont_wght.ttf') format('truetype');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -44,7 +44,7 @@
 
 @font-face {
   font-family: 'Etiquetas';
-  src: url('../../fonts/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
+  src: url('../../assets/fonts/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
   font-weight: 100 800;
   font-style: normal;
   font-display: swap;
@@ -52,7 +52,7 @@
 
 @font-face {
   font-family: 'TitulosTienda';
-  src: url('../../fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+  src: url('../../assets/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
   font-weight: 300 700; 
   font-style: normal;
   font-display: swap;

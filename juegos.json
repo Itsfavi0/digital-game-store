@@ -761,5 +761,769 @@
       "trailer_url": "https://www.youtube.com/watch?v=rXMX4YJ7Lts"
     },
     "is_hero": false
+  },
+  {
+    "id": 11,
+    "title": "Resident Evil 4",
+    "edition": "Gold Edition",
+    "developer": "CAPCOM Co., Ltd.",
+    "publisher": "CAPCOM Co., Ltd.",
+    "release_date": "2023-03-24",
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X/S"
+    ],
+    "genres": [
+      "Action",
+      "Survival Horror"
+    ],
+    "tags": [
+      "Terror",
+      "Acción",
+      "Disparos",
+      "Zombis",
+      "Supervivencia",
+      "Tercera persona"
+    ],
+    "region": "Global",
+    "drm": "Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": false,
+    "is_on_sale": true,
+    "summary": "La supervivencia es solo el comienzo. Seis años después del desastre biológico en Raccoon City, el agente Leon S. Kennedy es enviado a rescatar a la hija del presidente secuestrada en un aislado pueblo europeo.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Francés",
+      "Italiano",
+      "Alemán",
+      "Portugués",
+      "Japonés"
+    ],
+    "features": [
+      "Un jugador",
+      "Logros de Steam",
+      "Guardado en la nube",
+      "Compatible con mando"
+    ],
+    "gameplay_details": {
+      "estimated_duration_hours": 16,
+      "map_size_multiplier": 1.0,
+      "has_microtransactions": false
+    },
+    "prices": {
+      "original_price": 59.99,
+      "current_price": 38.99,
+      "discount_percentage": 35,
+      "currency": "USD"
+    },
+    "stock": {
+      "available": 25,
+      "total": 100,
+      "percentage": 25,
+      "status": "En stock"
+    },
+    "ratings": {
+      "critic_score": 93,
+      "user_score": 9.2
+    },
+    "media": {
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/capsule_616x353.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=7RZXPd3UeAE"
+    },
+    "is_hero": false
+  },
+  {
+    "id": 12,
+    "title": "Monster Hunter: World",
+    "edition": "Master Edition",
+    "developer": "CAPCOM Co., Ltd.",
+    "publisher": "CAPCOM Co., Ltd.",
+    "release_date": "2018-08-09",
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "tags": [
+      "Caza",
+      "Cooperativo",
+      "Rol",
+      "Multijugador",
+      "Acción",
+      "Mundo abierto"
+    ],
+    "region": "Global",
+    "drm": "Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": false,
+    "is_on_sale": true,
+    "summary": "Adéntrate en el Nuevo Mundo como cazador e investiga a las imponentes bestias que habitan sus ecosistemas vivientes en un emocionante juego de rol y acción cooperativa.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Francés",
+      "Italiano",
+      "Alemán",
+      "Japonés"
+    ],
+    "features": [
+      "Un jugador",
+      "Cooperativo online",
+      "Logros de Steam",
+      "Guardado en la nube",
+      "Compatible con mando"
+    ],
+    "gameplay_details": {
+      "estimated_duration_hours": 60,
+      "map_size_multiplier": 1.2,
+      "has_microtransactions": true
+    },
+    "prices": {
+      "original_price": 29.99,
+      "current_price": 9.89,
+      "discount_percentage": 67,
+      "currency": "USD"
+    },
+    "stock": {
+      "available": 35,
+      "total": 100,
+      "percentage": 35,
+      "status": "En stock"
+    },
+    "ratings": {
+      "critic_score": 90,
+      "user_score": 8.7
+    },
+    "media": {
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/capsule_616x353.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=O_A74qbgdTg"
+    },
+    "is_hero": false
+  },
+  {
+    "id": 13,
+    "title": "Forza Horizon 5",
+    "edition": "Premium Edition",
+    "developer": "Playground Games",
+    "publisher": "Xbox Game Studios",
+    "release_date": "2021-11-09",
+    "platforms": [
+      "PC",
+      "Xbox Series X/S",
+      "Xbox One"
+    ],
+    "genres": [
+      "Racing",
+      "Open world"
+    ],
+    "tags": [
+      "Carreras",
+      "Conducción",
+      "Mundo abierto",
+      "Multijugador",
+      "Simulación",
+      "Deportes"
+    ],
+    "region": "Global",
+    "drm": "Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": false,
+    "is_on_sale": true,
+    "summary": "Tu aventura Horizon definitiva te espera. Conduce expediciones ilimitadas y recorre los paisajes vibrantes y en constante evolución del mundo abierto de México con cientos de los mejores autos del planeta.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Francés",
+      "Alemán",
+      "Italiano",
+      "Portugués"
+    ],
+    "features": [
+      "Un jugador",
+      "Multijugador online",
+      "PvP",
+      "Logros de Steam",
+      "Guardado en la nube",
+      "Compatible con volante y mando"
+    ],
+    "gameplay_details": {
+      "estimated_duration_hours": 40,
+      "map_size_multiplier": 1.5,
+      "has_microtransactions": true
+    },
+    "prices": {
+      "original_price": 59.99,
+      "current_price": 29.99,
+      "discount_percentage": 50,
+      "currency": "USD"
+    },
+    "stock": {
+      "available": 20,
+      "total": 80,
+      "percentage": 25,
+      "status": "En stock"
+    },
+    "ratings": {
+      "critic_score": 92,
+      "user_score": 8.2
+    },
+    "media": {
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/capsule_616x353.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=FYH9n37B7Yw"
+    },
+    "is_hero": false
+  },
+  {
+    "id": 14,
+    "title": "DOOM Eternal",
+    "edition": "Deluxe Edition",
+    "developer": "id Software",
+    "publisher": "Bethesda Softworks",
+    "release_date": "2020-03-20",
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "genres": [
+      "Action",
+      "FPS"
+    ],
+    "tags": [
+      "FPS",
+      "Acción",
+      "Gore",
+      "Demonios",
+      "Banda sonora increíble",
+      "Primera persona"
+    ],
+    "region": "Global",
+    "drm": "Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": false,
+    "is_on_sale": true,
+    "summary": "Los ejércitos del infierno han invadido la Tierra. Ponte en la piel del Slayer en una épica campaña monojugador para derrotar a los demonios en múltiples dimensiones y detener la destrucción total de la humanidad.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Francés",
+      "Italiano",
+      "Alemán",
+      "Ruso",
+      "Japonés"
+    ],
+    "features": [
+      "Un jugador",
+      "Multijugador online",
+      "Logros de Steam",
+      "Guardado en la nube",
+      "Compatible con mando"
+    ],
+    "gameplay_details": {
+      "estimated_duration_hours": 20,
+      "map_size_multiplier": 1.0,
+      "has_microtransactions": false
+    },
+    "prices": {
+      "original_price": 39.99,
+      "current_price": 9.99,
+      "discount_percentage": 75,
+      "currency": "USD"
+    },
+    "stock": {
+      "available": 14,
+      "total": 70,
+      "percentage": 20,
+      "status": "Pocas unidades"
+    },
+    "ratings": {
+      "critic_score": 88,
+      "user_score": 8.6
+    },
+    "media": {
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/capsule_616x353.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=2Hbb88t2m64"
+    },
+    "is_hero": false
+  },
+  {
+    "id": 15,
+    "title": "Stardew Valley",
+    "edition": "Standard Edition",
+    "developer": "ConcernedApe",
+    "publisher": "ConcernedApe",
+    "release_date": "2016-02-26",
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "genres": [
+      "Simulation",
+      "RPG",
+      "Indie"
+    ],
+    "tags": [
+      "Granja",
+      "Simulación",
+      "Pixel art",
+      "Relajante",
+      "Rol",
+      "Multijugador"
+    ],
+    "region": "Global",
+    "drm": "Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": false,
+    "is_on_sale": false,
+    "summary": "Acabas de heredar la vieja parcela agrícola de tu abuelo en Stardew Valley. Equipado con herramientas usadas y un puñado de monedas, prepárate para labrar una nueva vida en el campo.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Francés",
+      "Alemán",
+      "Italiano",
+      "Portugués",
+      "Ruso",
+      "Japonés"
+    ],
+    "features": [
+      "Un jugador",
+      "Cooperativo online",
+      "Logros de Steam",
+      "Guardado en la nube",
+      "Compatible con mando"
+    ],
+    "gameplay_details": {
+      "estimated_duration_hours": 80,
+      "map_size_multiplier": 1.0,
+      "has_microtransactions": false
+    },
+    "prices": {
+      "original_price": 14.99,
+      "current_price": 14.99,
+      "discount_percentage": 0,
+      "currency": "USD"
+    },
+    "stock": {
+      "available": 50,
+      "total": 100,
+      "percentage": 50,
+      "status": "En stock"
+    },
+    "ratings": {
+      "critic_score": 89,
+      "user_score": 9.5
+    },
+    "media": {
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/capsule_616x353.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=ot7uXNQskhs"
+    },
+    "is_hero": false
+  },
+  {
+    "id": 16,
+    "title": "Sea of Thieves",
+    "edition": "2024 Edition",
+    "developer": "Rare Ltd",
+    "publisher": "Xbox Game Studios",
+    "release_date": "2020-06-03",
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X/S",
+      "Xbox One"
+    ],
+    "genres": [
+      "Action-adventure",
+      "Open world"
+    ],
+    "tags": [
+      "Piratas",
+      "Mundo abierto",
+      "Multijugador",
+      "Cooperativo",
+      "Aventura",
+      "PvP"
+    ],
+    "region": "Global",
+    "drm": "Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": false,
+    "is_on_sale": true,
+    "summary": "Ofrece la experiencia de piratas esencial, desde la navegación y el combate hasta la exploración y el saqueo: todo lo que necesitas para disfrutar de la vida de pirata y convertirte en leyenda.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Francés",
+      "Alemán",
+      "Italiano",
+      "Portugués",
+      "Ruso"
+    ],
+    "features": [
+      "Cooperativo online",
+      "PvP online",
+      "Logros de Steam",
+      "Guardado en la nube",
+      "Compatible con mando"
+    ],
+    "gameplay_details": {
+      "estimated_duration_hours": 50,
+      "map_size_multiplier": 1.4,
+      "has_microtransactions": true
+    },
+    "prices": {
+      "original_price": 39.99,
+      "current_price": 19.99,
+      "discount_percentage": 50,
+      "currency": "USD"
+    },
+    "stock": {
+      "available": 22,
+      "total": 60,
+      "percentage": 36,
+      "status": "En stock"
+    },
+    "ratings": {
+      "critic_score": 82,
+      "user_score": 8.0
+    },
+    "media": {
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/capsule_616x353.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=r5JIBaasuE8"
+    },
+    "is_hero": false
+  },
+  {
+    "id": 17,
+    "title": "EA SPORTS FC 26",
+    "edition": "Ultimate Edition",
+    "developer": "EA Canada & EA Romania",
+    "publisher": "Electronic Arts",
+    "release_date": "2025-09-26",
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X/S",
+      "Nintendo Switch 2"
+    ],
+    "genres": [
+      "Sports",
+      "Simulation"
+    ],
+    "tags": [
+      "Fútbol",
+      "Deportes",
+      "Simulación",
+      "Competitivo",
+      "Multijugador",
+      "Coop"
+    ],
+    "region": "Global",
+    "drm": "EA App / Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": false,
+    "is_on_sale": true,
+    "summary": "Siente el juego más cerca con EA SPORTS FC 26. Con la tecnología de vanguardia HyperMotion Next-Gen, PlayStyles evolucionados y la icónica portada de Ultimate Edition con Zlatan Ibrahimović junto a las estrellas mundiales Jude Bellingham y Jamal Musiala.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Francés",
+      "Alemán",
+      "Italiano",
+      "Portugués",
+      "Japonés"
+    ],
+    "features": [
+      "Un jugador",
+      "Multijugador online",
+      "PvP",
+      "Clubes Pro",
+      "Ultimate Team",
+      "Compatible con mando"
+    ],
+    "gameplay_details": {
+      "estimated_duration_hours": 120,
+      "map_size_multiplier": 1.0,
+      "has_microtransactions": true
+    },
+    "prices": {
+      "original_price": 69.99,
+      "current_price": 34.99,
+      "discount_percentage": 50,
+      "currency": "USD"
+    },
+    "stock": {
+      "available": 40,
+      "total": 100,
+      "percentage": 40,
+      "status": "En stock"
+    },
+    "ratings": {
+      "critic_score": 84,
+      "user_score": 7.6
+    },
+    "media": {
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/2669320/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/2669320/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/2669320/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/2669320/capsule_616x353.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=pBM2xyco_Kg"
+    },
+    "is_hero": false
+  },
+  {
+    "id": 18,
+    "title": "Lies of P",
+    "edition": "Deluxe Edition",
+    "developer": "NEOWIZ",
+    "publisher": "NEOWIZ",
+    "release_date": "2023-09-18",
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X/S",
+      "macOS"
+    ],
+    "genres": [
+      "Action",
+      "RPG",
+      "Souls-like"
+    ],
+    "tags": [
+      "Souls-like",
+      "Fantasía oscura",
+      "Difícil",
+      "Rol de acción",
+      "Tercera persona",
+      "Atmósfera"
+    ],
+    "region": "Global",
+    "drm": "Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": false,
+    "is_on_sale": false,
+    "summary": "Un emocionante soulslike que toma la historia de Pinocho, la invierte por completo y la ambienta en el elegante e inquietante telón de fondo de la Belle Époque.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Francés",
+      "Alemán",
+      "Japonés",
+      "Coreano"
+    ],
+    "features": [
+      "Un jugador",
+      "Logros de Steam",
+      "Guardado en la nube",
+      "Compatible con mando"
+    ],
+    "gameplay_details": {
+      "estimated_duration_hours": 35,
+      "map_size_multiplier": 1.0,
+      "has_microtransactions": false
+    },
+    "prices": {
+      "original_price": 59.99,
+      "current_price": 59.99,
+      "discount_percentage": 0,
+      "currency": "USD"
+    },
+    "stock": {
+      "available": 18,
+      "total": 50,
+      "percentage": 36,
+      "status": "En stock"
+    },
+    "ratings": {
+      "critic_score": 84,
+      "user_score": 8.8
+    },
+    "media": {
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1627720/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1627720/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1627720/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1627720/capsule_616x353.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=kgi0k1VvA98"
+    },
+    "is_hero": false
+  },
+  {
+    "id": 19,
+    "title": "Helldivers 2",
+    "edition": "Super Citizen Edition",
+    "developer": "Arrowhead Game Studios",
+    "publisher": "PlayStation Publishing LLC",
+    "release_date": "2024-02-08",
+    "platforms": [
+      "PC",
+      "PlayStation 5"
+    ],
+    "genres": [
+      "Action",
+      "Third-Person Shooter"
+    ],
+    "tags": [
+      "Cooperativo",
+      "Shooter",
+      "Ciencia ficción",
+      "Tercera persona",
+      "Acción",
+      "Multijugador"
+    ],
+    "region": "Global",
+    "drm": "Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": false,
+    "is_on_sale": false,
+    "summary": "La última línea de ataque de la galaxia. Enrólate con los Helldivers y únete a la lucha por la libertad en una galaxia hostil en este frenético juego de disparos en tercera persona.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Francés",
+      "Alemán",
+      "Italiano",
+      "Portugués",
+      "Japonés"
+    ],
+    "features": [
+      "Cooperativo online",
+      "Multijugador online",
+      "Logros de Steam",
+      "Guardado en la nube",
+      "Compatible con mando"
+    ],
+    "gameplay_details": {
+      "estimated_duration_hours": 50,
+      "map_size_multiplier": 1.1,
+      "has_microtransactions": true
+    },
+    "prices": {
+      "original_price": 39.99,
+      "current_price": 39.99,
+      "discount_percentage": 0,
+      "currency": "USD"
+    },
+    "stock": {
+      "available": 40,
+      "total": 100,
+      "percentage": 40,
+      "status": "En stock"
+    },
+    "ratings": {
+      "critic_score": 82,
+      "user_score": 8.3
+    },
+    "media": {
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/capsule_616x353.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=l_t8bQW2m3w"
+    },
+    "is_hero": false
+  },
+  {
+    "id": 20,
+    "title": "Hogwarts Legacy",
+    "edition": "Digital Deluxe Edition",
+    "developer": "Avalanche Software",
+    "publisher": "Warner Bros. Games",
+    "release_date": "2023-02-10",
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "genres": [
+      "Action RPG",
+      "Open world"
+    ],
+    "tags": [
+      "Magia",
+      "Mundo abierto",
+      "Fantasía",
+      "Rol",
+      "Aventura",
+      "Un jugador"
+    ],
+    "region": "Global",
+    "drm": "Steam",
+    "delivery_type": "Instant Digital Key",
+    "is_featured": false,
+    "is_on_sale": true,
+    "summary": "Vive lo que no está escrito en Hogwarts Legacy, un RPG inmersivo en mundo abierto ambientado en el universo de los libros de Harry Potter en el siglo XIX.",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Francés",
+      "Alemán",
+      "Italiano",
+      "Portugués",
+      "Japonés"
+    ],
+    "features": [
+      "Un jugador",
+      "Logros de Steam",
+      "Guardado en la nube",
+      "Compatible con mando"
+    ],
+    "gameplay_details": {
+      "estimated_duration_hours": 35,
+      "map_size_multiplier": 1.3,
+      "has_microtransactions": false
+    },
+    "prices": {
+      "original_price": 59.99,
+      "current_price": 23.99,
+      "discount_percentage": 60,
+      "currency": "USD"
+    },
+    "stock": {
+      "available": 28,
+      "total": 90,
+      "percentage": 31,
+      "status": "En stock"
+    },
+    "ratings": {
+      "critic_score": 84,
+      "user_score": 8.5
+    },
+    "media": {
+      "cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/library_600x900_2x.jpg",
+      "background_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/library_hero.jpg",
+      "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/logo.png",
+      "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/capsule_616x353.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=1O6QstnCpnc"
+    },
+    "is_hero": false
   }
 ]

@@ -6,12 +6,14 @@
   <meta charset="UTF-8" />
   <meta name="description" content="Bienvenido a FavGames, tu sitio web favorito para información sobre videojuegos.">
 
-  <link rel="icon" type="image/x-icon" href="./assets/games.svg" />
+  <link rel="icon" type="image/x-icon" href="./assets/brand/logo.svg" />
 
   <link rel="stylesheet" href="./css/home/base.css" />
   <link rel="stylesheet" href="./css/home/header.css" />
   <link rel="stylesheet" href="./css/home/hero.css" />
+  <link rel="stylesheet" href="./css/home/PlatformSection.css" />
   <link rel="stylesheet" href="./css/home/cards.css" />
+  <link rel="stylesheet" href="./css/home/RewardsSection.css" />
   <link rel="stylesheet" href="./css/home/footer.css" />
   <link rel="stylesheet" href="./css/home/responsive.css" />
   <link rel="stylesheet" href="./css/home/saleGame.css" />
@@ -25,12 +27,12 @@
     <header class="header">
       <div class="container">
         <a class="logo" href="/index.html">
-          <img class="logo-image" src="./assets/games.svg" alt="Logo de FavGames" />
+          <img class="logo-image" src="./assets/brand/logo.svg" alt="Logo de FavGames" />
           <h1 class="logo-text">FavGames</h1>
         </a>
 
         <form class="header-search">
-          <img src="./assets/search.svg" alt="Icono de búsqueda" />
+          <img src="./assets/icons/ui/search.svg" alt="Icono de búsqueda" />
           <input class="header-search-input" type="text" placeholder="Buscar tu juego..." aria-label="Buscar tu juego"/>
           <button class="header-search-button" type="submit">Buscar</button>
         </form>
@@ -102,17 +104,17 @@
         <div class="featured-cards">
           <article class="hero-featured-card">
             <div class="hero-footer-icon">
-              <img src="./assets/thunder.svg" alt="Thunder" />
+              <img src="./assets/icons/ui/thunder.svg" alt="Thunder" />
             </div>
 
             <div class="hero-footer-content">
               <h3 class="hero-footer-title">Entrega Instantánea</h3>
-              <p class="hero-footer-description">Códigos en pantalla < 60 seg</p>
+              <p class="hero-footer-description">Códigos en pantalla &lt; 60 seg</p>
             </div>
           </article>
           <article class="hero-featured-card">
             <div class="hero-footer-icon">
-            <img src="./assets/check.svg" alt="Check" />
+            <img src="./assets/icons/ui/check.svg" alt="Check" />
             </div>
 
             <div class="hero-footer-content">
@@ -122,7 +124,7 @@
           </article>
           <article class="hero-featured-card">
             <div class="hero-footer-icon">
-              <img src="./assets/star.svg" alt="Star" />
+              <img src="./assets/icons/ui/star.svg" alt="Star" />
             </div>
 
             <div class="hero-footer-content">
@@ -132,7 +134,7 @@
           </article>
           <article class="hero-featured-card">
             <div class="hero-footer-icon">
-              <img src="./assets/shield.svg" alt="Shield" />
+              <img src="./assets/icons/ui/shield.svg" alt="Shield" />
             </div>
 
             <div class="hero-footer-content">
@@ -155,7 +157,7 @@
         </div>
 
         <div class="countdown">
-          <img class="countdown-icon" src="./assets/clock.svg" alt="Icono de reloj" />
+          <img class="countdown-icon" src="./assets/icons/ui/clock.svg" alt="Icono de reloj" />
           <span class="countdown-label">Termina en:</span>
           <div class="countdown-timer" id="countdown-timer">
             <span id="days">00</span>:
@@ -172,6 +174,75 @@
     </div>
   </section>
 
+<!-- Platforms Section -->
+  <section class="platforms-section container">
+
+      <!-- Cabecera y Filtros -->
+      <div class="platforms-header">
+        <div class="platforms-title-block">
+          <span class="platforms-subtitle">Ecosistemas Verificados</span>
+          <h2 class="platforms-title">Comprar por Plataforma</h2>
+        </div>
+
+        <div class="platforms-filters">
+          <button class="filter-btn active">MÁS VENDIDOS</button>
+          <button class="filter-btn">NOVEDADES</button>
+          <button class="filter-btn">DESCUENTOS > 70%</button>
+          <button class="filter-btn">MENOS DE $10 USD</button>
+        </div>
+      </div>
+
+      <!-- Plataformas -->
+      <div class="platforms-grid">
+
+        <!-- Steam -->
+        <a href="#" class="platform-card platform-steam">
+          <div class="platform-icon-wrapper">
+            <img src="./assets/icons/platforms/steam.svg" alt="Steam" />
+          </div>
+          <h3 class="platform-name">Steam PC</h3>
+          <span class="platform-stock">+8,420 Claves</span>
+        </a>
+
+        <!-- PlayStation -->
+        <a href="#" class="platform-card platform-psn">
+          <div class="platform-icon-wrapper">
+            <img src="./assets/icons/platforms/playstation.svg" alt="PlayStation" />
+          </div>
+          <h3 class="platform-name">PlayStation PSN</h3>
+          <span class="platform-stock">+3,198 Códigos</span>
+        </a>
+
+        <!-- Xbox -->
+        <a href="#" class="platform-card platform-xbox">
+          <div class="platform-icon-wrapper">
+            <img src="./assets/icons/platforms/xbox.svg" alt="Xbox" />
+          </div>
+          <h3 class="platform-name">Xbox & Pass</h3>
+          <span class="platform-stock">+2,848 Claves</span>
+        </a>
+
+        <!-- Nintendo -->
+        <a href="#" class="platform-card platform-nintendo">
+          <div class="platform-icon-wrapper">
+            <img src="./assets/icons/platforms/nintendo.svg" alt="Nintendo Switch" />
+          </div>
+          <h3 class="platform-name">Nintendo Switch</h3>
+          <span class="platform-stock">+1,450 Claves</span>
+        </a>
+
+        <!-- Tarjetas Prepago -->
+        <a href="#" class="platform-card platform-gift">
+          <div class="platform-icon-wrapper">
+            <img src="./assets/icons/platforms/gift-card.svg" alt="Tarjetas Prepago" />
+          </div>
+          <h3 class="platform-name">Tarjetas Prepago</h3>
+          <span class="platform-stock">Saldos & Recargas</span>
+        </a>
+
+      </div>
+  </section>
+  
 <!-- Games Section -->
   <section class="games-section">
     <div class="container">
@@ -210,7 +281,7 @@
       <div class="footer-content">
         <section class="footer-col-brand">
           <div class="footer-logo-container">
-            <img class="footer-logo-svg" src="./assets/games.svg" alt="Logo de FavGames"/>
+            <img class="footer-logo-svg" src="./assets/brand/logo.svg" alt="Logo de FavGames"/>
             <h3 class="footer-logo">FavGames</h3>
           </div>
 
@@ -219,7 +290,7 @@
           <div class="footer-badges">
             <div class="footer-badge-card">
               <div>
-                <img class="footer-review-svg" src="./assets/star.svg" alt="Estrella" />
+                <img class="footer-review-svg" src="./assets/icons/ui/star.svg" alt="Estrella" />
               </div>
               <div class="footer-badge-text">
                 <p>4.9 / 5</p>
@@ -229,7 +300,7 @@
 
             <div class="footer-badge-card">
               <div>
-                <img class="footer-review-svg" src="./assets/blue-shield.svg" alt="Estrella" />
+                <img class="footer-review-svg" src="./assets/icons/ui/shield-check.svg" alt="Estrella" />
               </div>
               <div class="footer-review-text">
                 <p>100%</p>
@@ -274,17 +345,17 @@
 
       <div class="footer-bottom">
         <div class="footer-legal">
-          <span class="legal-item"><img class="footer-icon" src="./assets/footer-icons/lock.svg" alt=""> SSL 256-Bit Encrypted</span>
-          <span class="legal-item"><img class="footer-icon" src="./assets/footer-icons/thunder.svg" alt=""> Delay Automated Dispatch</span>
+          <span class="legal-item"><img class="footer-icon" src="./assets/icons/ui/lock.svg" alt=""> SSL 256-Bit Encrypted</span>
+          <span class="legal-item"><img class="footer-icon" src="./assets/icons/ui/thunder.svg" alt=""> Delay Automated Dispatch</span>
           <span class="legal-item">&copy; 2026 FavGames Inc. Todos los derechos reservados.</span>
         </div>
 
         <div class="">
           <div class="footer-social">
-          <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/"><img alt="facebook-page" class="footer-icon" src="./assets/footer-icons/facebook.svg">Facebook</a>
-          <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/favi0_b/"><img alt="instagram-profile" class="footer-icon" src="./assets/footer-icons/instagram.svg">Instagram</a>
-          <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/"><img alt="youtube-profile" class="footer-icon" src="./assets/footer-icons/youtube.svg">YouTube</a>
-          <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://github.com/Itsfavi0"><img alt="github-profile" class="footer-icon" src="./assets/footer-icons/github.svg">GitHub</a>
+          <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/"><img alt="facebook-page" class="footer-icon" src="./assets/icons/social/facebook.svg">Facebook</a>
+          <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/favi0_b/"><img alt="instagram-profile" class="footer-icon" src="./assets/icons/social/instagram.svg">Instagram</a>
+          <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/"><img alt="youtube-profile" class="footer-icon" src="./assets/icons/social/youtube.svg">YouTube</a>
+          <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://github.com/Itsfavi0"><img alt="github-profile" class="footer-icon" src="./assets/icons/social/github.svg">GitHub</a>
           </div>
         </div>
       </div>

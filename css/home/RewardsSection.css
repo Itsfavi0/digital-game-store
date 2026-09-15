@@ -1,0 +1,74 @@
+/* --- BANNER DE RECOMPENSAS --- */
+.rewards-section {
+    margin: 4rem auto;
+}
+
+.rewards-banner {
+    background-color: var(--card-bg);
+    border-radius: 1rem;
+    padding: 3rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.rewards-content {
+    flex: 1;
+    max-width: 650px;
+}
+
+.rewards-subtitle {
+    font-family: 'Etiquetas', sans-serif;
+    color: var(--secondary);
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0.8rem;
+}
+
+.rewards-title {
+    font-family: 'TitulosTienda', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 0 1rem 0;
+}
+
+.rewards-desc {
+    font-family: 'TextoPrincipal', sans-serif;
+    color: var(--text-secondary-2);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.rewards-actions {
+    display: flex;
+    gap: 1rem;
+    flex-shrink: 0;
+}
+
+.btn-secondary {
+    background-color: var(--card-hover-bg);
+    color: var(--text-primary);
+    font-family: 'TitulosTienda', sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover, &:focus {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+}
+
+.rewards-actions .btn-primary {
+    padding: 1rem 1.5rem;
+    background-color: var(--primary);
+}
