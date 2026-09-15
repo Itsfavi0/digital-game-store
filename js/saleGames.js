@@ -1,3 +1,5 @@
+import { formatPrice, getCurrencyCode } from './currency.js';
+
 const saleGames = document.getElementById('sale-games-grid');
 
 async function loadSaleGames() {
@@ -12,7 +14,7 @@ async function loadSaleGames() {
         flashCard.classList.add('flash-card');
         flashCard.innerHTML = `
             <div class="flash-poster">
-                <img src=${game.media?.wide_cover_url} alt=${game.title}/>
+                <img src=${game.media?.wide_cover_url} alt="${game.title}"/>
                 <div class="flash-badge-platform">${game.publisher}/ ${game.platforms?.[0]}</div>
                 <div class="flash-badge-discount">-${game.prices?.discount_percentage}%</div>
             </div>
@@ -28,8 +30,8 @@ async function loadSaleGames() {
             </div>
             <div class="flash-footer">
                 <div class="flash-prices">
-                    <span class="old-price">${game.prices?.original_price}</span>
-                    <span class="new-price"><span class="text-green">$${game.prices?.current_price}</span> <small>${game.prices?.currency}</small> </span> 
+                    <span class="old-price">${game.prices?.original_price ? formatPrice(game.prices.original_price) : ''}</span>
+                    <span class="new-price"><span class="text-green">${game.prices?.current_price ? formatPrice(game.prices.current_price) : ''}</span> <small>${getCurrencyCode()}</small> </span> 
                 </div>
                 <button class="btn-buy">🛒 COMPRAR</button>
             </div>
@@ -38,4 +40,5 @@ async function loadSaleGames() {
     });
 }
 
+window.addEventListener('currencyChanged', loadSaleGames);
 loadSaleGames().catch(error => console.error("Error al cargar los juegos con descuento:", error));

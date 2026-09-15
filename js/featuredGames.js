@@ -1,3 +1,5 @@
+import { formatPrice } from './currency.js';
+
 const featuredContainer = document.getElementById('featured-games-list');
 
 async function loadFeaturedGames() {
@@ -19,7 +21,7 @@ async function loadFeaturedGames() {
       : '';
 
     const priceHtml = game.prices?.current_price
-      ? `<span class="game-price">$${game.prices.current_price}</span>`
+      ? `<span class="game-price">${formatPrice(game.prices.current_price)}</span>`
       : '';
 
     const platform = game.drm || (Array.isArray(game.platforms) ? game.platforms[0] : 'STEAM');
@@ -48,4 +50,5 @@ async function loadFeaturedGames() {
   });
 }
 
+window.addEventListener('currencyChanged', loadFeaturedGames);
 loadFeaturedGames().catch(error => console.error('Error al cargar juegos destacados:', error));

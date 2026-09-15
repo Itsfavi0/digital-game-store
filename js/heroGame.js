@@ -1,3 +1,5 @@
+import { formatPrice } from './currency.js';
+
 const heroMain = document.getElementById('hero-main');
 
 function formatHeroTitle(title, edition) {
@@ -37,11 +39,11 @@ async function loadHeroMain() {
     : '';
 
   const originalPriceHtml = game.prices?.original_price
-    ? `<span class="original-price">$${game.prices.original_price}</span>`
+    ? `<span class="original-price">${formatPrice(game.prices.original_price)}</span>`
     : '';
 
   const currentPriceHtml = game.prices?.current_price
-    ? `<span class="discounted-price">$${game.prices.current_price}</span>`
+    ? `<span class="discounted-price">${formatPrice(game.prices.current_price)}</span>`
     : '';
 
   const formattedTitle = formatHeroTitle(game.title, game.edition);
@@ -90,4 +92,5 @@ async function loadHeroMain() {
   }
 }
 
+window.addEventListener('currencyChanged', loadHeroMain);
 loadHeroMain().catch(error => console.error('Error al cargar el juego del hero principal:', error));

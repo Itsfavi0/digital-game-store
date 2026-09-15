@@ -1,3 +1,4 @@
+import './js/currency.js';
 import './js/heroGame.js';
 import './js/featuredGames.js';
 import './js/gridGames.js';

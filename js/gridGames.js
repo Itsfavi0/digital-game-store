@@ -1,3 +1,5 @@
+import { formatPrice } from './currency.js';
+
 const gridGames = document.getElementById("games-grid");
 const paginationContainer = document.getElementById("games-pagination");
 
@@ -48,7 +50,7 @@ function renderGamesPage(page) {
                     <span class="label-platform">⭐ ${game.ratings?.user_score} / 10</span>
                 </div>
                 <div class="card-prices">
-                    <span class="game-price">$${game.prices.current_price} ${game.prices?.currency}</span>
+                    <span class="game-price">${formatPrice(game.prices.current_price)}</span>
                 </div>
             </div>
             <div class="card-right">
@@ -104,4 +106,10 @@ function changePage(newPage) {
     }
 }
 
-loadGames().catch(error => console.error('Error al cargar los juegos:', error));
+window.addEventListener('currencyChanged', () => {
+    if (allGames.length > 0) {
+        renderGamesPage(currentPage);
+    }
+});
+
+loadGames();
