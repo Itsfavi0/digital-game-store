@@ -71,8 +71,17 @@
                   <li><a href="#" data-currency="pen">PEN S/</a></li>
                 </ul>
               </li>
+
+              <li class="cart-section" id="cart-section">
+                <button type="button" class="cart-button" id="cart-toggle-btn">
+                  <img src="./assets/icons/ui/cart.svg" alt="Carrito"> <span class="cart-counter" id="cart-counter">0</span>
+                </button>
+              </li>
+              
             </ul>
         </nav>
+        
+        
         
       </div>
     </header>
@@ -251,7 +260,7 @@
         <div class="games-grid" id="games-grid">
 
         </div>
-        <!-- Contenedor Paginación -->
+        <!-- Contenedor, Paginación -->
         <div class="games-pagination" id="games-pagination"></div>
       </div>
     </div>
@@ -363,5 +372,20 @@
       </div>
     </div>
   </footer>
+  <!-- Sidebar del carrito -->
+  <div class="cart-sidebar" id="cart-sidebar">
+    <div class="cart-sidebar-header">
+      <h2>Tu Carrito</h2>
+      <button class="cart-sidebar-close" id="cart-sidebar-close">&times;</button>
+    </div>
+    <div class="cart-sidebar-content">
+      <ul class="cart-content" id="cart-content">
+      </ul>
+    </div>
+    <div class="cart-sidebar-footer">
+      <button class="cart-checkout-btn">Pagar</button>
+    </div>
+  </div>
+  <div class="cart-overlay" id="cart-overlay"></div>
 </body>
 </html>

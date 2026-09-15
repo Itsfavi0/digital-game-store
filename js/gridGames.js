@@ -1,4 +1,5 @@
 import { formatPrice } from './currency.js';
+import { addCart } from './shoppingCart.js';
 
 const gridGames = document.getElementById("games-grid");
 const paginationContainer = document.getElementById("games-pagination");
@@ -57,6 +58,11 @@ function renderGamesPage(page) {
                 <button class="btn-primary">OBTENER</button>
             </div>
         `;
+        
+        gameCard.querySelector(".btn-primary").addEventListener("click", (e) => {
+            e.preventDefault();
+            addCart(game);
+        })
         gridGames.appendChild(gameCard);
     });
 }
@@ -79,7 +85,7 @@ function renderPaginationControls() {
         const pageBtn = document.createElement("button");
         pageBtn.classList.add("pagination-btn");
         if (i === currentPage) pageBtn.classList.add("active");
-        pageBtn.textContent = i;
+        pageBtn.textContent = String(i);
         pageBtn.addEventListener("click", () => changePage(i));
         paginationContainer.appendChild(pageBtn);
     }
@@ -112,4 +118,4 @@ window.addEventListener('currencyChanged', () => {
     }
 });
 
-loadGames();
+loadGames().catch(error => console.error('Error al cargar juegos:', error));
