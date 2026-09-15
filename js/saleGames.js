@@ -1,8 +1,11 @@
 const saleGames = document.getElementById('sale-games-grid');
 
 async function loadSaleGames() {
+    if (!saleGames) return;
     const response = await fetch("juegos.json");
     const data = await response.json();
+    
+    saleGames.innerHTML = ``;
 
     data.slice(5,9).forEach(game => {
         const flashCard = document.createElement('article');

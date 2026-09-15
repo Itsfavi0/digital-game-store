@@ -1,7 +1,8 @@
 const gridGames = document.getElementById("games-grid");
 
 async function loadGames() {
-    gridGames.innerHTML = ""
+    if (!gridGames) return;
+    gridGames.innerHTML = ``;
 
     const response = await fetch("juegos.json");
     const data = await response.json();
