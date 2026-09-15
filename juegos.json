@@ -26,7 +26,7 @@
     "region": "Global",
     "drm": "Rockstar / Steam",
     "delivery_type": "Instant Digital Key",
-    "is_featured": true,
+    "is_featured": false,
     "is_on_sale": true,
     "summary": "Cuando un joven estafador callejero, un ladrón de bancos retirado y un psicópata aterrador se ven involucrados con lo peor del mundo criminal, deben llevar a cabo peligrosos golpes para sobrevivir.",
     "languages": [
@@ -73,7 +73,8 @@
       "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/logo.png",
       "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=QkkoHAzjnUs"
-    }
+    },
+    "is_hero": false
   },
   {
     "id": 2,
@@ -149,7 +150,8 @@
       "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/logo.png",
       "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=c0i88t0Kacs"
-    }
+    },
+    "is_hero": false
   },
   {
     "id": 3,
@@ -225,7 +227,8 @@
       "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/logo.png",
       "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=E3Huy2cdih0"
-    }
+    },
+    "is_hero": false
   },
   {
     "id": 4,
@@ -254,7 +257,7 @@
     "region": "Global",
     "drm": "Steam",
     "delivery_type": "Instant Digital Key",
-    "is_featured": true,
+    "is_featured": false,
     "is_on_sale": true,
     "summary": "Night City, una megalopolis obsesionada con el poder, el glamour y las modificaciones corporales.",
     "languages": [
@@ -300,7 +303,8 @@
       "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/logo.png",
       "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=8X2kIfS6fb8"
-    }
+    },
+    "is_hero": true
   },
   {
     "id": 5,
@@ -375,7 +379,8 @@
       "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/logo.png",
       "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=eaW0tYpxyp0"
-    }
+    },
+    "is_hero": false
   },
   {
     "id": 6,
@@ -450,7 +455,8 @@
       "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/logo.png",
       "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=1T22wNvoNiU"
-    }
+    },
+    "is_hero": false
   },
   {
     "id": 7,
@@ -526,7 +532,8 @@
       "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/logo.png",
       "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=91t0ha9x0AE"
-    }
+    },
+    "is_hero": false
   },
   {
     "id": 8,
@@ -553,7 +560,7 @@
     "region": "Global",
     "drm": "Steam",
     "delivery_type": "Instant Digital Key",
-    "is_featured": true,
+    "is_featured": false,
     "is_on_sale": true,
     "summary": "Kratos vive como un hombre fuera de la sombra de los dioses en las tierras de los mitos nórdicos.",
     "languages": [
@@ -599,7 +606,8 @@
       "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/logo.png",
       "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=K0u_kAWLJOA"
-    }
+    },
+    "is_hero": false
   },
   {
     "id": 9,
@@ -675,7 +683,8 @@
       "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/logo.png",
       "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=UAO2urG23S4"
-    }
+    },
+    "is_hero": false
   },
   {
     "id": 10,
@@ -704,7 +713,7 @@
     "region": "Global",
     "drm": "Steam",
     "delivery_type": "Instant Digital Key",
-    "is_featured": true,
+    "is_featured": false,
     "is_on_sale": true,
     "summary": "Lleva a un shinobi de un solo brazo en su venganza contra el clan que lo derroto y secuestro a su senor.",
     "languages": [
@@ -750,6 +759,7 @@
       "logo_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/logo.png",
       "wide_cover_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/capsule_616x353.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=rXMX4YJ7Lts"
-    }
+    },
+    "is_hero": false
   }
 ]

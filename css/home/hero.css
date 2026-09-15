@@ -210,7 +210,8 @@
   margin: 0;
 }
 
-.sidebar-content {
+.sidebar-content,
+.featured-games-list {
   display: flex;
   flex-direction: column;
   gap: 1rem;

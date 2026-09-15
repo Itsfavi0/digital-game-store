@@ -79,46 +79,8 @@
   <!-- Hero Section -->
   <section class="hero">
     <div class="container">
-      <div class="hero-main">
-        <img class="hero-main-image" src="./assets/game-images/hero-images/bodycam.jpg" alt="Imagen destacada de juego" />
-        <div class="hero-content">
-          <div class="hero-badges">
-            <span class="badge badge-green">Nueva Actualización</span>
-            <span class="badge badge-dark">Steam Key</span>
-            <span class="badge badge-dark">Entrega inmediata</span>
-            <span class="badge badge-dark">Sin Bloqueo Regional</span>
-          </div>
-          <div class="hero-game-info">
-            <h2 class="hero-title">Bodycam:<br>
-              <span class="text-green">Locked & Loaded</span>
-            </h2>
-            
-            <p class="hero-description">¡Explora la ciudad y enfréntate a desafíos en Bodycam! Descubre la nueva actualización con emocionantes misiones y mejoras.</p>
-          </div>
-
-          <div class="hero-tags">
-            <span class="tag">FPS</span>
-            <span class="tag">Acción</span>
-            <span class="tag">Simulación</span>
-            <span class="tag">PvP</span>
-          </div>
-
-          <div class="hero-buy-section">
-            <div class="price-box">
-              <span class="discount-tag">-20%</span>
-              <div class="price-numbers">
-                <span class="original-price">S/ 99.99</span>
-                <span class="discounted-price">S/ 79.99</span>
-              </div>
-            </div>
-
-            <button class="btn-primary">COMPRAR CLAVE INSTANTÁNEA</button>
-            <button class="hero-favorite-icon">
-              🤍
-            </button>
-          </div>
-
-        </div>
+      <div class="hero-main" id="hero-main">
+        <!-- Renderizado dinámicamente con js/heroGame.js -->
       </div>
 
       <aside class="hero-sidebar">
@@ -126,79 +88,9 @@
           <h2 class="sidebar-title">Juegos Destacados</h2>
         </div>
         <div class="sidebar-content">
-          <article class="game-card">
-            <div class="game-poster">
-              <img src="./assets/game-images/hero-images/2k27.jpg" alt="Poster de NBA 2k27" />
-            </div>
-            <div class="game-info">
-              <p class="platform-info">
-                <span class="label-platform">STEAM KEY</span>
-                <span class="label-separator">•</span>
-                <span class="region">GLOBAL</span>
-              </p>
-              <h3 class="game-title">NBA 2K27</h3>
-
-              <div class="game-price-row">
-                <span class="game-discount">-20%</span>
-                <span class="game-price">S/ 199.99</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="game-card">
-            <div class="game-poster">
-              <img src="./assets/game-images/hero-images/dead-by-daylight.jpg" alt="Poster de Dead by Daylight" />
-            </div>
-            <div class="game-info">
-              <p class="platform-info">
-                <span class="label-platform">STEAM KEY</span>
-                <span class="label-separator">•</span>
-                <span class="region">GLOBAL</span>
-              </p>
-              <h3 class="game-title">Dead by Daylight</h3>
-
-              <div class="game-price-row">
-                <span class="game-discount">-50%</span>
-                <span class="game-price">S/ 49.99</span>
-              </div>
-            </div>
-          </article>
-          <article class="game-card">
-            <div class="game-poster">
-              <img src="./assets/game-images/hero-images/elden-ring.jpeg" alt="Poster de Elden Ring" />
-            </div>
-            <div class="game-info">
-              <p class="platform-info">
-                <span class="label-platform">STEAM KEY</span>
-                <span class="label-separator">•</span>
-                <span class="region">GLOBAL</span>
-              </p>
-
-              <h3 class="game-title">Elden Ring</h3>
-              <div class="game-price-row">
-                <span class="game-discount">-30%</span>
-                <span class="game-price">S/ 139.99</span>
-              </div>
-            </div>
-          </article>
-          <article class="game-card">
-            <div class="game-poster">
-              <img src="./assets/game-images/hero-images/cyberpunk-2077.webp" alt="Poster de Cyberpunk 2077" />
-            </div>
-            <div class="game-info">
-              <p class="platform-info">
-                <span class="label-platform">STEAM KEY</span>
-                <span class="label-separator">•</span>
-                <span class="region">GLOBAL</span>
-              </p>
-
-              <h3 class="game-title">Cyberpunk 2077</h3>
-              <div class="game-price-row">
-                <span class="game-discount">-50%</span>
-                <span class="game-price">S/ 49.99</span>
-              </div>
-            </div>
-          </article>
+          <div class="featured-games-list" id="featured-games-list">
+            <!-- Renderizado dinámicamente con js/featuredGames.js -->
+          </div>
           <div class="sidebar-footer">
             <a class="sidebar-button" href="#">Explorar catálogo completo de novedades -></a>
           </div>
@@ -366,7 +258,7 @@
               <li><a class="footer-link" href="#">Soporte 24/7</a></li>
               <li><a class="footer-link" href="#">Protección al Comprador</a></li>
               <li><a class="footer-link" href="#">Reembolsos</a></li>
-            </ul>https://cdn.cloudflare.steamstatic.com/steam/apps/292030/capsule_616x353.jpg
+            </ul>
         </section>
 
         <section class="footer-col-newsletter">
