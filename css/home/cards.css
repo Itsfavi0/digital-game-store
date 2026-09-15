@@ -1,12 +1,13 @@
+/* cards.css horizontal en 2 columnas y con paginacion */
 .games-section {
   padding: 1rem 4rem;
-  
-  h2 {
-    font-family: 'TitulosTienda', sans-serif;
-    text-align: left;
-    font-size: 2rem;
-    padding-bottom: 1rem;
-  }
+}
+
+.games-section h2 {
+  font-family: 'TitulosTienda', sans-serif;
+  text-align: left;
+  font-size: 2rem;
+  padding-bottom: 1.25rem;
 }
 
 .games-listings {
@@ -14,102 +15,215 @@
   margin: 0 auto;
 }
 
+/* Grilla en 2 columnas */
 .games-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
-.game-card {
-  padding: .5rem;
+.game-card-horizontal {
+  padding: 1rem 1.25rem;
   background-color: var(--card-bg);
-  border: 2px solid var(--border);
+  border: 1px solid var(--border);
   border-radius: 1rem;
   display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.game-poster {
-  position: relative;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.2rem;
   width: 100%;
-  aspect-ratio: 2/3;
-  overflow: hidden;
-  border-radius: 1rem;
-  padding: 0.5rem;
-
-  img {
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
-    display: block;
-  }
+  transition: transform 0.2s ease, background-color 0.2s, border-color 0.2s;
 }
 
-.game-info {
-  padding: 0.75rem;
+.game-card-horizontal:hover {
+  background-color: var(--card-hover-bg);
+  border-color: var(--primary);
+  transform: translateY(-2px);
+}
+
+/* Izquierda: Número de ranking */
+.card-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 35px;
+}
+
+.game-rank {
+  font-family: 'TitulosTienda', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+/* Medio: Imagen y descripción */
+.card-image-wrapper,
+.game-poster {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card-image-wrapper {
+  flex: 0 0 175px;
+  height: 105px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card-image-wrapper img,
+.game-poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.game-card-horizontal:hover .card-image-wrapper img {
+  transform: scale(1.05);
+}
+
+.card-middle {
+  flex: 1;
+  min-width: 0; /* Permite truncar o ajustar texto correctamente en flexbox */
   display: flex;
   flex-direction: column;
-  flex: 1;
+  justify-content: center;
 }
 
-.game-title {
+.card-middle .game-title {
   font-family: 'TitulosTienda', sans-serif;
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.game-description {
-  font-family: 'TextoPrincipal', sans-serif;
   font-size: 1.25rem;
+  line-height: 1.3;
+  margin-bottom: 0.3rem;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-middle .card-platform-info {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  font-family: 'Etiquetas', sans-serif;
+  font-size: 0.8rem;
+  color: var(--text-secondary-2);
   margin-bottom: 0.5rem;
 }
 
-.game-trailer-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  color: var(--tertiary);
-  font-family: 'Etiquetas', sans-serif;
-  font-size: 0.75rem;
-  font-weight: bold;
-  text-decoration: none;
-  margin-top: 0.5rem;
-  align-self: flex-start;
-  transition: color 0.3s ease, transform 0.2s ease;
+.card-middle .card-prices {
+  margin-top: 0.2rem;
+}
 
-  &:hover, &:focus {
+.card-middle .game-price {
+  font-family: 'Etiquetas', sans-serif;
   color: var(--primary);
-  text-decoration: underline;
-  transform: translateX(3px);
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Derecha: Botón de acción */
+.card-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 0.25rem;
+}
+
+.card-right .btn-primary {
+  background-color: var(--primary);
+  color: var(--background);
+  font-family: 'TitulosTienda', sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.65rem 1.4rem;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.card-right .btn-primary:hover {
+  background-color: var(--primary-hover);
+  transform: scale(1.02);
+}
+
+/* Paginacion */
+.games-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2.5rem;
+}
+
+.pagination-btn {
+  background-color: var(--input-bg);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-family: 'Etiquetas', sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pagination-btn:hover:not(:disabled) {
+  background-color: var(--card-hover-bg);
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.pagination-btn.active {
+  background-color: var(--primary);
+  color: var(--background);
+  border-color: var(--primary);
+  font-weight: bold;
+}
+
+.pagination-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  border-color: var(--border);
+  color: var(--text-secondary);
+}
+
+/* Responsividad */
+@media (max-width: 1200px) {
+  .games-grid {
+    grid-template-columns: 1fr;
   }
 }
 
-.card-footer {
-  display: flex;
-  justify-content: space-between;
-  padding: .5rem;
-  gap: 0.8rem;
-  margin-top: auto;
-}
-
-.card-platform-info {
-  padding: 0.5rem 1rem;
-}
-
-.card-prices {
-  background-color: var(--background);
-  font-family: 'Etiquetas', sans-serif;
-  border-radius: 0.5rem;
-  padding: 0.5rem 1rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.game-price {
-  color: var(--primary);
-  font-size: 1.3rem;
-  font-weight: bold;
-  line-height: 1;
+@media (max-width: 680px) {
+  .game-card-horizontal {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1.25rem;
+  }
+  
+  .card-left {
+    justify-content: flex-start;
+  }
+  
+  .card-image-wrapper {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+  
+  .card-right {
+    width: 100%;
+    padding-right: 0;
+    margin-top: 0.5rem;
+  }
+  
+  .card-right .btn-primary {
+    width: 100%;
+    text-align: center;
+  }
 }
