@@ -1,3 +1,4 @@
+import { getGames } from './gameService.js';
 import { formatPrice } from './currency.js';
 import { addCart } from './shoppingCart.js';
 
@@ -17,8 +18,7 @@ function formatHeroTitle(title, edition) {
 async function loadHeroMain() {
   if (!heroMain) return;
 
-  const response = await fetch('juegos.json');
-  const games = await response.json();
+  const games = await getGames();
 
   const game = games.find(g => g.is_hero || g.is_star_game) || games[0];
   if (!game) return;

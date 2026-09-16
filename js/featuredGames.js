@@ -1,3 +1,4 @@
+import { getGames } from './gameService.js';
 import { formatPrice } from './currency.js';
 
 const featuredContainer = document.getElementById('featured-games-list');
@@ -5,8 +6,7 @@ const featuredContainer = document.getElementById('featured-games-list');
 async function loadFeaturedGames() {
   if (!featuredContainer) return;
 
-  const response = await fetch('juegos.json');
-  const games = await response.json();
+  const games = await getGames();
 
   const featuredGames = games.filter(game => game.is_featured).slice(0, 4);
 

@@ -1,3 +1,4 @@
+import { getGames } from './gameService.js';
 import { formatPrice, getCurrencyCode } from './currency.js';
 import { addCart } from './shoppingCart.js';
 
@@ -5,8 +6,7 @@ const saleGames = document.getElementById('sale-games-grid');
 
 async function loadSaleGames() {
     if (!saleGames) return;
-    const response = await fetch("juegos.json");
-    const data = await response.json();
+    const data = await getGames();
     
     saleGames.innerHTML = ``;
 

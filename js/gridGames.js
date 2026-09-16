@@ -1,3 +1,4 @@
+import { getGames } from './gameService.js';
 import { formatPrice } from './currency.js';
 import { addCart } from './shoppingCart.js';
 
@@ -12,8 +13,7 @@ async function loadGames() {
     if (!gridGames) return;
     
     try {
-        const response = await fetch("juegos.json");
-        allGames = await response.json();
+        allGames = await getGames();
         renderGamesPage(currentPage);
         renderPaginationControls();
     } catch (error) {
