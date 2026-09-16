@@ -1,6 +1,7 @@
 import { getGames } from './gameService.js';
 import { formatPrice } from './currency.js';
 import { addCart } from './shoppingCart.js';
+import { showToast } from './toast.js';
 
 const heroMain = document.getElementById('hero-main');
 
@@ -93,7 +94,14 @@ async function loadHeroMain() {
   const favBtn = heroMain.querySelector('.hero-favorite-icon');
   if (favBtn) {
     favBtn.addEventListener('click', () => {
-      favBtn.textContent = favBtn.textContent.trim() === '🤍' ? '❤️' : '🤍';
+      const isFav = favBtn.textContent.trim() === '🤍';
+      favBtn.textContent = isFav ? '❤️' : '🤍';
+      showToast({
+        title: isFav ? 'Añadido a favoritos' : 'Eliminado de favoritos',
+        message: game.title,
+        icon: isFav ? '❤️' : '🤍',
+        type: isFav ? 'success' : 'info'
+      });
     });
   }
 }
