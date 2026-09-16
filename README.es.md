@@ -8,7 +8,7 @@
 
 FavGames es una simulación de tienda digital totalmente responsiva diseñada para demostrar conceptos avanzados de UI/UX en frontend sin depender de frameworks pesados como React, Vue o Angular. Mediante el uso de ES Modules, patrones de diseño como Singleton y manipulación directa del DOM, este proyecto logra un pipeline de renderizado casi instantáneo, a la vez que brinda una experiencia de compra premium con elementos interactivos como un carrito reactivo, filtrado dinámico de datos y notificaciones visuales animadas.
 
-**Demostración en Vivo:** [Inserta aquí tu enlace de despliegue, ej. Vercel o GitHub Pages]
+**Demostración en Vivo:** [https://itsfavi0.github.io/digital-game-store/]
 
 ---
 
