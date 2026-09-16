@@ -101,7 +101,7 @@
   gap: 0.5rem;
 }
 
-.newletter-form-input {
+.newsletter-form-input {
   flex: 1;
   padding: 0.7rem 1rem;
   background: var(--input-bg);
@@ -115,7 +115,7 @@
   }
 }
 
-.newletter-form-button {
+.newsletter-form-button {
   background-color: var(--primary);
   font-family: 'Etiquetas', sans-serif;
   font-weight: bold;
@@ -133,7 +133,7 @@
 .footer-disclaimer {
   font-family: 'Etiquetas', sans-serif;
   font-size: 0.8rem;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   color: var(--text-muted);
 }
 

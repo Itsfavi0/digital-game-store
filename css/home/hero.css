@@ -274,7 +274,7 @@
   .platform-info {
     font-size: 0.75rem;
     font-weight: bold;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     color: var(--text-secondary-2);
   }
   .game-title {

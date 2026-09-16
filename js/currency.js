@@ -6,10 +6,6 @@ export function setCurrency(currency) {
     window.dispatchEvent(new Event('currencyChanged'));
 }
 
-export function getCurrentCurrency() {
-    return currentCurrency;
-}
-
 export function formatPrice(priceUsd) {
     if (priceUsd === undefined || priceUsd === null) return '';
     if (currentCurrency === 'pen') {

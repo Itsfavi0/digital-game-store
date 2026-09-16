@@ -1,4 +1,4 @@
-/* cards.css horizontal en 2 columnas y con paginacion */
+/* cards.css horizontal en 2 columnas y con paginación */
 .games-section {
   padding: 1rem 4rem;
 }
@@ -150,7 +150,7 @@
   transform: scale(1.02);
 }
 
-/* Paginacion */
+/* Paginación */
 .games-pagination {
   display: flex;
   justify-content: center;
@@ -191,7 +191,7 @@
   color: var(--text-secondary);
 }
 
-/* Responsividad */
+/* Responsive */
 @media (max-width: 1200px) {
   .games-grid {
     grid-template-columns: 1fr;
