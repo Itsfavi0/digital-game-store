@@ -1,4 +1,5 @@
 import { formatPrice } from './currency.js';
+import { addCart } from './shoppingCart.js';
 
 const heroMain = document.getElementById('hero-main');
 
@@ -82,6 +83,11 @@ async function loadHeroMain() {
       </div>
     </div>
   `;
+
+  heroMain.querySelector(".btn-primary").addEventListener("click", (e) => {
+    e.preventDefault();
+    addCart(game);
+  })
 
   // Interacción para el botón de favoritos
   const favBtn = heroMain.querySelector('.hero-favorite-icon');

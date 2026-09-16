@@ -1,4 +1,5 @@
 import { formatPrice, getCurrencyCode } from './currency.js';
+import { addCart } from './shoppingCart.js';
 
 const saleGames = document.getElementById('sale-games-grid');
 
@@ -36,6 +37,11 @@ async function loadSaleGames() {
                 <button class="btn-buy">🛒 COMPRAR</button>
             </div>
         `;
+
+        flashCard.querySelector(".btn-buy").addEventListener("click", (e) => {
+            e.preventDefault();
+            addCart(game);
+        })
         saleGames.appendChild(flashCard);
     });
 }
