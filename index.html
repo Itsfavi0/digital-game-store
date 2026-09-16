@@ -74,7 +74,11 @@
 
               <li class="cart-section" id="cart-section">
                 <button type="button" class="cart-button" id="cart-toggle-btn">
-                  <img src="./assets/icons/ui/cart.svg" alt="Carrito"> <span class="cart-counter" id="cart-counter">0</span>
+                  <span class="cart-icon-wrapper">
+                    <img src="./assets/icons/ui/cart.svg" alt="Carrito">
+                    <span class="cart-counter" id="cart-counter">0</span>
+                  </span>
+                  <span class="cart-header-total" id="cart-header-total"></span>
                 </button>
               </li>
               
@@ -347,8 +351,8 @@
           <h3 class="footer-title">Nexus Flash Drops</h3>
           <p class="footer-description">Instant alerts for midnight releases and 80%+ publisher cuts.</p>
             <form class="newsletter-form">
-              <input class="newletter-form-input" type="email" placeholder="Ingresa tu email" required aria-label="Ingresa tu email"/>
-              <button class="newletter-form-button" type="submit">Unirse</button>
+              <input class="newsletter-form-input" type="email" placeholder="Ingresa tu email" required aria-label="Ingresa tu email"/>
+              <button class="newsletter-form-button" type="submit">Unirse</button>
             </form>
             <small class="footer-disclaimer">Cero spam. Puedes cancelar en cualquier momento.</small>
         </section>
@@ -383,6 +387,10 @@
       </ul>
     </div>
     <div class="cart-sidebar-footer">
+      <div class="cart-total">
+        <span>Total a pagar:</span>
+        <span id="cart-total-price">$0.00</span>
+      </div>
       <button class="cart-checkout-btn">Pagar</button>
     </div>
   </div>

@@ -153,26 +153,44 @@
   align-items: center;
   gap: 8px;
   transition: color 0.3s ease;
-  
-  img {
-    width: 20px;
-  }
+  padding: 4px;
 }
 
 .cart-button:hover, .cart-button:focus {
   color: var(--primary-hover);
 }
 
+.cart-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 24px;
+    height: 24px;
+    display: block;
+  }
+}
+
 .cart-counter {
+  position: absolute;
+  top: -8px;
+  right: -10px;
   background-color: var(--primary-hover);
   color: #fff;
-  font-size: 0.8rem;
-  font-weight: bold;
-  padding: 2px 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
   border-radius: 9999px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
 }
 
 /* Sidebar del Carrito */
@@ -352,4 +370,75 @@
 .cart-total span:last-child {
   color: var(--primary-hover);
   font-weight: bold;
+}
+
+/* Actions del Cart Item */
+.cart-item {
+  position: relative; /* Para el boton remove absoluto */
+  align-items: flex-start;
+}
+
+.cart-item-info {
+  flex: 1;
+}
+
+.cart-item-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0;
+}
+
+.qty-btn {
+  background-color: var(--input-bg);
+  color: var(--text-primary);
+  border: 1px solid var(--text-secondary);
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.qty-btn:hover {
+  background-color: var(--primary-hover);
+  color: #fff;
+  border-color: var(--primary-hover);
+}
+
+.qty-text {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  font-weight: 500;
+  min-width: 20px;
+  text-align: center;
+}
+
+.cart-item-remove {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  transition: color 0.2s ease;
+}
+
+.cart-item-remove:hover {
+  color: var(--primary-hover);
+}
+
+.cart-header-total {
+  font-size: 0.95rem;
+  color: var(--primary-hover);
+  font-weight: 600;
+  margin-left: 2px;
 }
