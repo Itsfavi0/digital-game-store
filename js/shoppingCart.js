@@ -1,4 +1,5 @@
 import { formatPrice } from './currency.js';
+import { showToast } from './toast.js';
 
 const cart = [];
 
@@ -10,6 +11,7 @@ const cartToggleBtn = document.getElementById("cart-toggle-btn");
 const cartSidebarClose = document.getElementById("cart-sidebar-close");
 const cartTotalPrice = document.getElementById("cart-total-price");
 const cartHeaderTotal = document.getElementById("cart-header-total");
+const cartCheckoutBtn = document.querySelector(".cart-checkout-btn");
 
 if (cartToggleBtn && cartSidebar && cartOverlay && cartSidebarClose) {
     cartToggleBtn.addEventListener("click", (e) => {
@@ -29,40 +31,86 @@ if (cartToggleBtn && cartSidebar && cartOverlay && cartSidebarClose) {
     });
 }
 
+if (cartCheckoutBtn) {
+    cartCheckoutBtn.addEventListener("click", () => {
+        if (cart.length === 0) {
+            showToast({
+                title: 'Carrito vacío',
+                message: 'Agrega al menos un juego para continuar.',
+                icon: '⚠️',
+                type: 'warning'
+            });
+            return;
+        }
+        showToast({
+            title: '¡Compra completada!',
+            message: 'Tus claves digitales han sido procesadas con éxito.',
+            icon: '🎉',
+            type: 'success'
+        });
+        cart.length = 0;
+        updateCounter();
+        renderCart();
+        if (cartSidebar && cartOverlay) {
+            cartSidebar.classList.remove("open");
+            cartOverlay.classList.remove("show");
+        }
+    });
+}
+
 export function addCart(game) {
-    const existing = cart.find(item => item.game.title === game.title);
+    const existing = cart.find(item => item.game.id === game.id);
+    let currentQty = 1;
     if (existing) {
         existing.quantity += 1;
+        currentQty = existing.quantity;
     } else {
         cart.push({ game, quantity: 1 });
     }
     updateCounter();
     renderCart();
 
-    if (cartSidebar && cartOverlay && !cartSidebar.classList.contains("open")) {
-        cartSidebar.classList.add("open");
-        cartOverlay.classList.add("show");
-    }
+    // Notificación visual
+    showToast({
+        title: '¡Agregado al carrito!',
+        message: `${game.title} ${currentQty > 1 ? `(x${currentQty})` : ''}`,
+        image: game.media?.cover_url || game.media?.wide_cover_url,
+        type: 'success'
+    });
 }
 
-function decreaseCart(title) {
-    const index = cart.findIndex(item => item.game.title === title);
+function decreaseCart(id) {
+    const index = cart.findIndex(item => item.game.id === id);
     if (index !== -1) {
         cart[index].quantity -= 1;
         if (cart[index].quantity <= 0) {
+            const removedGame = cart[index].game;
             cart.splice(index, 1);
+            showToast({
+                title: 'Producto eliminado',
+                message: removedGame.title,
+                icon: '🗑️',
+                type: 'info'
+            });
         }
         updateCounter();
         renderCart();
     }
 }
 
-function removeCart(title) {
-    const index = cart.findIndex(item => item.game.title === title);
+function removeCart(id) {
+    const index = cart.findIndex(item => item.game.id === id);
     if (index !== -1) {
+        const removedGame = cart[index].game;
         cart.splice(index, 1);
         updateCounter();
         renderCart();
+        showToast({
+            title: 'Producto eliminado',
+            message: removedGame.title,
+            icon: '🗑️',
+            type: 'info'
+        });
     }
 }
 
@@ -103,7 +151,7 @@ function renderCart() {
         `;
 
         cartItem.querySelector('.btn-minus').addEventListener('click', () => {
-            decreaseCart(game.title);
+            decreaseCart(game.id);
         });
 
         cartItem.querySelector('.btn-plus').addEventListener('click', () => {
@@ -111,7 +159,7 @@ function renderCart() {
         });
 
         cartItem.querySelector('.cart-item-remove').addEventListener('click', () => {
-            removeCart(game.title);
+            removeCart(game.id);
         });
         
         cartItems.appendChild(cartItem);
