@@ -6,6 +6,7 @@ const gridGames = document.getElementById("games-grid");
 const paginationContainer = document.getElementById("games-pagination");
 
 let allGames = [];
+let filteredGames = [];
 let currentPage = 1;
 const itemsPerPage = 6;
 
@@ -14,6 +15,8 @@ async function loadGames() {
     
     try {
         allGames = await getGames();
+        filteredGames = [...allGames];
+        setupPlatformFilters();
         renderGamesPage(currentPage);
         renderPaginationControls();
     } catch (error) {
@@ -25,7 +28,7 @@ function renderGamesPage(page) {
     gridGames.innerHTML = ``;
     const startIndex = (page - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
-    const gamesToShow = allGames.slice(startIndex, endIndex);
+    const gamesToShow = filteredGames.slice(startIndex, endIndex);
 
     gamesToShow.forEach((game, index) => {
         const realIndex = startIndex + index + 1;
@@ -71,7 +74,7 @@ function renderPaginationControls() {
     if (!paginationContainer) return;
     paginationContainer.innerHTML = '';
     
-    const totalPages = Math.ceil(allGames.length / itemsPerPage);
+    const totalPages = Math.ceil(filteredGames.length / itemsPerPage);
     if (totalPages <= 1) return;
 
     const prevBtn = document.createElement("button");
@@ -99,7 +102,7 @@ function renderPaginationControls() {
 }
 
 function changePage(newPage) {
-    const totalPages = Math.ceil(allGames.length / itemsPerPage);
+    const totalPages = Math.ceil(filteredGames.length / itemsPerPage);
     if (newPage < 1 || newPage > totalPages) return;
     
     currentPage = newPage;
@@ -117,5 +120,46 @@ window.addEventListener('currencyChanged', () => {
         renderGamesPage(currentPage);
     }
 });
+
+function setupPlatformFilters() {
+    const filterBtns = document.querySelectorAll('.platforms-filters .filter-btn');
+    if (!filterBtns.length) return;
+
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            // Activar botón visualmente
+            filterBtns.forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+
+            const filterText = e.target.textContent.trim().toUpperCase();
+            
+            // Lógica de filtrado
+            if (filterText === 'MÁS VENDIDOS') {
+                filteredGames = [...allGames]; // asume que el orden JSON es por ranking/ventas
+            } 
+            else if (filterText === 'NOVEDADES') {
+                // Ordenar por fecha más reciente
+                filteredGames = [...allGames].sort((a, b) => new Date(b.release_date) - new Date(a.release_date));
+            } 
+            else if (filterText === 'DESCUENTOS > 70%') {
+                filteredGames = allGames.filter(g => g.prices.discount_percentage > 70);
+            } 
+            else if (filterText === 'MENOS DE $10 USD') {
+                filteredGames = allGames.filter(g => g.prices.current_price < 10);
+            }
+
+            // Reiniciar a primera página y renderizar
+            currentPage = 1;
+            renderGamesPage(currentPage);
+            renderPaginationControls();
+
+            // Scrollear a la tabla suavemente
+            const section = document.querySelector('.games-section');
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+    });
+}
 
 loadGames().catch(error => console.error('Error al cargar juegos:', error));

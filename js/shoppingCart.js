@@ -125,6 +125,17 @@ function renderCart() {
     if (!cartItems) return;
     
     cartItems.innerHTML = "";
+    
+    if (cart.length === 0) {
+        cartItems.innerHTML = `
+            <div class="cart-empty-message">
+                <span class="cart-empty-icon">🛒</span>
+                <p>Tu carrito está vacío</p>
+                <small>¡Explora nuestras ofertas relámpago!</small>
+            </div>
+        `;
+    }
+    
     let totalUsd = 0;
     
     cart.forEach((item) => {

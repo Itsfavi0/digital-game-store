@@ -442,3 +442,31 @@
   font-weight: 600;
   margin-left: 2px;
 }
+
+.cart-empty-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--text-secondary);
+  gap: 0.5rem;
+}
+
+.cart-empty-icon {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.5;
+}
+
+.cart-empty-message p {
+  font-family: 'TitulosTienda', sans-serif;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.cart-empty-message small {
+  font-size: 0.85rem;
+}
