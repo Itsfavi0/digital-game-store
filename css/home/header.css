@@ -1,3 +1,22 @@
+/* ==========================================================================
+   Header Styles (Sticky & Glassmorphism)
+   ========================================================================== */
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(10, 13, 20, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.top {
+  display: contents;
+}
+
 .header .container {
   display: flex;
   align-items: center;
